@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>AI资讯聚合平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: 'Segoe UI', 'PingFang SC', Arial, sans-serif; background: #f6f8fa; margin: 0; }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px #0001;
+            padding: 32px 24px;
+        }
+        h1 { text-align: center; color: #222; margin-bottom: 16px; }
+        .toolbar { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .toolbar input[type='text'] { flex: 1; min-width: 180px; padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; }
+        .toolbar button { padding: 8px 18px; border: none; border-radius: 6px; background: #0057ff; color: #fff; font-size: 16px; cursor: pointer; transition: background 0.2s; }
+        .toolbar button:hover { background: #003fa3; }
+        .news-list { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+        @media (max-width: 700px) { .news-list { grid-template-columns: 1fr; } }
+        .news-card {
+            background: #f9fafb;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px #0001;
+            padding: 18px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            position: relative; /* 关键：为绝对定位的子元素提供参照 */
+            min-height: 90px;   /* 适当增加高度，避免内容重叠 */
+        }
+        .news-title { font-size: 18px; font-weight: 600; color: #0057ff; text-decoration: none; line-height: 1.4; }
+        .news-title:hover { text-decoration: underline; }
+        .news-meta {
+            color: #888;
+            font-size: 13px;
+            position: absolute;
+            left: 16px;
+            bottom: 10px;
+            /* 保证不会和分页按钮重叠 */
+        }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 12px; margin: 32px 0 0 0; }
+        .pagination button { padding: 6px 16px; border: none; border-radius: 5px; background: #eee; color: #333; font-size: 15px; cursor: pointer; }
+        .pagination button.active, .pagination button:active { background: #0057ff; color: #fff; }
+        .pagination button:disabled { background: #ddd; color: #aaa; cursor: not-allowed; }
+        .update-info { text-align: right; color: #888; font-size: 13px; margin-bottom: 8px; }
+        .art-title {
+            text-align: center;
+            font-size: 2.8em;
+            font-weight: bold;
+            font-style: italic; /* 斜体 */
+            letter-spacing: 0.08em;
+            color: #a259ff;
+            font-family: 'Segoe UI', 'PingFang SC', Arial, sans-serif;
+            margin-bottom: 18px;
+            background: linear-gradient(90deg, #a259ff 20%, #6c2eb7 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="art-title">JackleeのAI资讯聚合平台</h1>
+        <div class="toolbar">
+            <input id="search" type="text" placeholder="搜索AI新闻标题..." />
+            <button onclick="searchNews()">搜索</button>
+            <button onclick="updateNews()" id="updateBtn">⟳ 更新</button>
+        </div>
+        <div class="update-info" id="updateInfo"></div>
+        <div class="news-list" id="newsList"></div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <script>
+        let page = 1, size = 20, total = 0, lastUpdate = '';
+        let currentQuery = '';
+
+        function fetchNews(p = 1, q = '') {
+            page = p;
+            currentQuery = q;
+            document.getElementById('newsList').innerHTML = '加载中...';
+            fetch(`/api/titles?page=${page}&size=${size}&q=${encodeURIComponent(q)}`)
+                .then(r => r.json())
+                .then(data => {
+                    // 兼容后端返回格式
+                    let news = Array.isArray(data) ? data : (data.data || []);
+                    total = data.total_articles || data.length || 0;
+                    renderNews(news);
+                    renderPagination();
+                });
+        }
+
+        function renderNews(news) {
+            const list = document.getElementById('newsList');
+            if (!news.length) {
+                list.innerHTML = '<div style="color:#888;text-align:center;">没有找到相关内容</div>';
+                return;
+            }
+            list.innerHTML = '';
+            news.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <a class="news-title" href="${item.link || item.original_url}" target="_blank">${item.title}</a>
+                    <div class="news-meta">
+                        ${item.source ? item.source.trim() : ''}${item.date ? ' | ' + item.date : ''}
+                    </div>
+                `;
+                list.appendChild(card);
+            });
+        }
+
+        function renderPagination() {
+            const pag = document.getElementById('pagination');
+            pag.innerHTML = '';
+            let totalPages = Math.ceil(total / size) || 1;
+
+            // 首页按钮
+            let first = document.createElement('button');
+            first.innerText = '首页';
+            first.disabled = page <= 1;
+            first.onclick = () => fetchNews(1, currentQuery);
+            pag.appendChild(first);
+
+            // 上一页
+            let prev = document.createElement('button');
+            prev.innerText = '上一页';
+            prev.disabled = page <= 1;
+            prev.onclick = () => fetchNews(page - 1, currentQuery);
+            pag.appendChild(prev);
+
+            // 页码信息和跳转输入框
+            let info = document.createElement('span');
+            info.innerHTML = `第 <input id="pageInput" type="number" min="1" max="${totalPages}" value="${page}" style="width:50px;text-align:center;"> / ${totalPages} 页`;
+            pag.appendChild(info);
+
+            // 跳转按钮
+            let jump = document.createElement('button');
+            jump.innerText = '跳转';
+            jump.onclick = () => {
+                let val = parseInt(document.getElementById('pageInput').value);
+                if (val >= 1 && val <= totalPages) {
+                    fetchNews(val, currentQuery);
+                } else {
+                    alert('请输入有效页码');
+                }
+            };
+            pag.appendChild(jump);
+
+            // 下一页
+            let next = document.createElement('button');
+            next.innerText = '下一页';
+            next.disabled = page >= totalPages;
+            next.onclick = () => fetchNews(page + 1, currentQuery);
+            pag.appendChild(next);
+
+            // 尾页按钮
+            let last = document.createElement('button');
+            last.innerText = '尾页';
+            last.disabled = page >= totalPages;
+            last.onclick = () => fetchNews(totalPages, currentQuery);
+            pag.appendChild(last);
+        }
+
+        function searchNews() {
+            const q = document.getElementById('search').value;
+            fetchNews(1, q);
+        }
+
+        function updateNews() {
+            const btn = document.getElementById('updateBtn');
+            btn.disabled = true;
+            btn.innerText = '正在更新...';
+            fetch('/api/update', { method: 'POST' })
+                .then(r => r.json())
+                .then(data => {
+                    btn.disabled = false;
+                    btn.innerText = '⟳ 更新';
+                    document.getElementById('updateInfo').innerText = '上次更新：' + (new Date()).toLocaleString();
+                    fetchNews(1, currentQuery);
+                    alert(data.msg || '更新完成');
+                })
+                .catch(() => {
+                    btn.disabled = false;
+                    btn.innerText = '⟳ 更新';
+                    alert('更新失败，请稍后重试');
+                });
+        }
+
+        // 首次加载
+        fetchNews(1, '');
+    </script>
+</body>
+</html>
