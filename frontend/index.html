@@ -15,7 +15,10 @@
             padding: 32px 24px;
         }
         h1 { text-align: center; color: #222; margin-bottom: 16px; }
-        .toolbar { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .toolbar {
+            display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-bottom: 24px;
+            position: relative;
+        }
         .toolbar input[type='text'] { flex: 1; min-width: 180px; padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; }
         .toolbar button { padding: 8px 18px; border: none; border-radius: 6px; background: #0057ff; color: #fff; font-size: 16px; cursor: pointer; transition: background 0.2s; }
         .toolbar button:hover { background: #003fa3; }
@@ -61,11 +64,43 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+        .order-btn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-left: 0;
+            background: #fff;
+            color: #0057ff;
+            border: 1px solid #0057ff;
+            font-weight: bold;
+            transition: background 0.2s, color 0.2s;
+        }
+        .order-btn:hover {
+            background: #0057ff;
+            color: #fff;
+        }
+        .title-bar {
+            position: relative;
+            margin-bottom: 1.5em;
+            min-height: 3.2em;
+        }
+        .title-bar .art-title {
+            margin: 0 auto;
+            text-align: center;
+            position: static;
+            display: block;
+        }
+        .toolbar {
+            margin-top: 0.5em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="art-title">JackleeのAI资讯聚合平台</h1>
+        <div class="title-bar">
+            <h1 class="art-title">JackleeのAI资讯聚合平台</h1>
+            <button onclick="toggleOrder()" id="orderBtn" class="order-btn">从旧到新</button>
+        </div>
         <div class="toolbar">
             <input id="search" type="text" placeholder="搜索AI新闻标题..." />
             <button onclick="searchNews()">搜索</button>
@@ -78,12 +113,14 @@
     <script>
         let page = 1, size = 20, total = 0, lastUpdate = '';
         let currentQuery = '';
+        let order = 'asc'; // 默认从旧到新
 
-        function fetchNews(p = 1, q = '') {
+        function fetchNews(p = 1, q = '', ord = order) {
             page = p;
             currentQuery = q;
+            order = ord;
             document.getElementById('newsList').innerHTML = '加载中...';
-            fetch(`/api/titles?page=${page}&size=${size}&q=${encodeURIComponent(q)}`)
+            fetch(`/api/titles?page=${page}&size=${size}&q=${encodeURIComponent(q)}&order=${order}`)
                 .then(r => r.json())
                 .then(data => {
                     // 兼容后端返回格式
@@ -168,7 +205,7 @@
 
         function searchNews() {
             const q = document.getElementById('search').value;
-            fetchNews(1, q);
+            fetchNews(1, q, order);
         }
 
         function updateNews() {
@@ -191,8 +228,20 @@
                 });
         }
 
+        function toggleOrder() {
+            order = (order === 'asc') ? 'desc' : 'asc';
+            document.getElementById('orderBtn').innerText = order === 'asc' ? '从旧到新' : '从新到旧';
+            fetchNews(1, currentQuery, order);
+        }
+
         // 首次加载
-        fetchNews(1, '');
+        fetchNews(1, '', order);
+        // v1新增：监听搜索框回车事件
+        document.getElementById('search').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                searchNews();
+            }
+        });
     </script>
 </body>
 </html>

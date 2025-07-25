@@ -4,6 +4,7 @@ import sqlite3
 import subprocess
 import threading
 import os
+# v1新增按时间排序功能
 
 app = Flask(__name__, static_folder='../frontend', static_url_path='/')
 CORS(app)
@@ -21,6 +22,9 @@ def get_titles():
     page = int(request.args.get('page', 1))
     size = int(request.args.get('size', 20))
     q = request.args.get('q', '').strip()
+    order = request.args.get('order', 'asc').lower()
+    if order not in ('asc', 'desc'):
+        order = 'asc'
     offset = (page - 1) * size
 
     conn = get_db()
@@ -28,11 +32,11 @@ def get_titles():
     if q:
         cur.execute('SELECT COUNT(*) FROM title_link WHERE title LIKE ?', (f'%{q}%',))
         total = cur.fetchone()[0]
-        cur.execute('SELECT * FROM title_link WHERE title LIKE ? ORDER BY id DESC LIMIT ? OFFSET ?', (f'%{q}%', size, offset))
+        cur.execute(f'SELECT * FROM title_link WHERE title LIKE ? ORDER BY id {order.upper()} LIMIT ? OFFSET ?', (f'%{q}%', size, offset))
     else:
         cur.execute('SELECT COUNT(*) FROM title_link')
         total = cur.fetchone()[0]
-        cur.execute('SELECT * FROM title_link ORDER BY id DESC LIMIT ? OFFSET ?', (size, offset))
+        cur.execute(f'SELECT * FROM title_link ORDER BY id {order.upper()} LIMIT ? OFFSET ?', (size, offset))
     rows = cur.fetchall()
     conn.close()
     data = [{"title": row["title"], "link": row["link"], "date": row["date"], "source": row["source"]} for row in rows]
