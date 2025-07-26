@@ -99,7 +99,7 @@
     <div class="container">
         <div class="title-bar">
             <h1 class="art-title">JackleeのAI资讯聚合平台</h1>
-            <button onclick="toggleOrder()" id="orderBtn" class="order-btn">从旧到新</button>
+            <button onclick="toggleOrder()" id="orderBtn" class="order-btn">从新到旧</button>
         </div>
         <div class="toolbar">
             <input id="search" type="text" placeholder="搜索AI新闻标题..." />
@@ -113,7 +113,7 @@
     <script>
         let page = 1, size = 20, total = 0, lastUpdate = '';
         let currentQuery = '';
-        let order = 'asc'; // 默认从旧到新
+        let order = 'desc'; // 默认从新到旧
 
         function fetchNews(p = 1, q = '', ord = order) {
             page = p;
@@ -212,21 +212,115 @@
             const btn = document.getElementById('updateBtn');
             btn.disabled = true;
             btn.innerText = '正在更新...';
+            
             fetch('/api/update', { method: 'POST' })
                 .then(r => r.json())
                 .then(data => {
-                    btn.disabled = false;
-                    btn.innerText = '⟳ 更新';
-                    document.getElementById('updateInfo').innerText = '上次更新：' + (new Date()).toLocaleString();
-                    fetchNews(1, currentQuery);
-                    alert(data.msg || '更新完成');
+                    // 开始轮询更新状态
+                    pollUpdateStatus();
                 })
                 .catch(() => {
                     btn.disabled = false;
                     btn.innerText = '⟳ 更新';
-                    alert('更新失败，请稍后重试');
+                    alert('更新请求失败，请稍后重试');
                 });
         }
+
+        function pollUpdateStatus() {
+            const btn = document.getElementById('updateBtn');
+            const statusInterval = setInterval(() => {
+                fetch('/api/update_status')
+                    .then(r => r.json())
+                    .then(data => {
+                        if (data.status === 'running') {
+                            // 继续轮询
+                            return;
+                        }
+                        
+                        // 停止轮询
+                        clearInterval(statusInterval);
+                        btn.disabled = false;
+                        btn.innerText = '⟳ 更新';
+                        
+                        // 根据状态显示不同消息
+                        if (data.status === 'success') {
+                            document.getElementById('updateInfo').innerText = '上次更新：' + (new Date()).toLocaleString();
+                            fetchNews(1, currentQuery);
+                            showMessage(data.msg, 'success');
+                        } else if (data.status === 'already_latest') {
+                            showMessage(data.msg, 'info');
+                        } else if (data.status === 'failed') {
+                            showMessage(data.msg, 'error');
+                        } else {
+                            showMessage(data.msg, 'warning');
+                        }
+                    })
+                    .catch(() => {
+                        clearInterval(statusInterval);
+                        btn.disabled = false;
+                        btn.innerText = '⟳ 更新';
+                        showMessage('获取更新状态失败', 'error');
+                    });
+            }, 2000); // 每2秒检查一次状态
+        }
+
+        function showMessage(message, type) {
+            // 创建消息提示框
+            const messageDiv = document.createElement('div');
+            messageDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 15px 20px;
+                border-radius: 8px;
+                color: white;
+                font-weight: bold;
+                z-index: 1000;
+                max-width: 300px;
+                word-wrap: break-word;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                animation: slideIn 0.3s ease-out;
+            `;
+            
+            // 根据类型设置颜色
+            if (type === 'success') {
+                messageDiv.style.backgroundColor = '#28a745';
+            } else if (type === 'error') {
+                messageDiv.style.backgroundColor = '#dc3545';
+            } else if (type === 'info') {
+                messageDiv.style.backgroundColor = '#17a2b8';
+            } else if (type === 'warning') {
+                messageDiv.style.backgroundColor = '#ffc107';
+                messageDiv.style.color = '#212529';
+            }
+            
+            messageDiv.textContent = message;
+            document.body.appendChild(messageDiv);
+            
+            // 3秒后自动移除
+            setTimeout(() => {
+                messageDiv.style.animation = 'slideOut 0.3s ease-in';
+                setTimeout(() => {
+                    if (messageDiv.parentNode) {
+                        messageDiv.parentNode.removeChild(messageDiv);
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // 添加CSS动画
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
 
         function toggleOrder() {
             order = (order === 'asc') ? 'desc' : 'asc';

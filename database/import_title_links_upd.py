@@ -9,33 +9,30 @@ def parse_date(date_str):
     except:
         return datetime.min
 
-def import_title_links():
-    # 读取 title_link.json
+def import_title_links_upd():
+    # 读取更新后的 title_link_upd.json
     try:
-        with open('bind/init_bind/title_link.json', 'r', encoding='utf-8') as f:
-            content = f.read().strip()
-            if not content:  # 如果文件为空
-                print("文件为空，没有数据可导入")
-                return
-            data = json.loads(content)
-        print(f"读取到 {len(data)} 条数据")
+        with open('bind/upd_bind/title_link_upd.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        print(f"读取到 {len(data)} 条更新数据")
     except FileNotFoundError:
-        print("未找到文件 bind/init_bind/title_link.json")
+        print("未找到更新文件 bind/upd_bind/title_link_upd.json")
         return
     except Exception as e:
         print(f"读取文件时出错: {e}")
         return
 
-    # 按时间从旧到新排序
+    # 按时间从旧到新排序（旧到新）
     sorted_data = sorted(data.items(), key=lambda x: parse_date(x[1][1]), reverse=False)
     print("数据已按时间从旧到新排序")
 
-    # 创建数据库
+    # 连接数据库
     conn = sqlite3.connect('database/title_link.db')
     c = conn.cursor()
-    c.execute('DROP TABLE IF EXISTS title_link')
+    
+    # 检查表是否存在，如果不存在则创建
     c.execute('''
-        CREATE TABLE title_link (
+        CREATE TABLE IF NOT EXISTS title_link (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT,
             link TEXT,
@@ -44,10 +41,22 @@ def import_title_links():
         )
     ''')
 
-    # 插入数据
+    # 获取现有标题，避免重复插入
+    c.execute('SELECT title FROM title_link')
+    existing_titles = {row[0] for row in c.fetchall()}
+    print(f"数据库中已有 {len(existing_titles)} 条记录")
+
+    # 插入新数据
     inserted_count = 0
+    skipped_count = 0
     
     for title, info in sorted_data:
+        # 检查是否已存在
+        if title in existing_titles:
+            print(f"跳过重复标题: {title}")
+            skipped_count += 1
+            continue
+            
         # info = [link, date, source]
         link = info[0] if len(info) > 0 else ''
         date = info[1] if len(info) > 1 else ''
@@ -65,8 +74,9 @@ def import_title_links():
     conn.commit()
     conn.close()
     
-    print(f"导入完成！")
-    print(f"成功导入: {inserted_count} 条记录")
+    print(f"更新完成！")
+    print(f"新增记录: {inserted_count} 条")
+    print(f"跳过重复: {skipped_count} 条")
     
     # 验证结果
     conn = sqlite3.connect('database/title_link.db')
@@ -77,4 +87,4 @@ def import_title_links():
     print(f"数据库总记录数: {total_count} 条")
 
 if __name__ == "__main__":
-    import_title_links()
+    import_title_links_upd() 

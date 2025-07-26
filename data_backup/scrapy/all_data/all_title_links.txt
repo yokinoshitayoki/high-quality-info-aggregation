@@ -1,0 +1,368 @@
+5年后，编写软件只要一毛钱？	['https://www.huxiu.com/article/4618074.html', '2025-07-25', '虎嗅网']
+几毛钱的芯片，利润率直追英伟达	['https://www.huxiu.com/article/4617206.html', '2025-07-25', '虎嗅网']
+MiniMax Agent发布30天，这次真的碾压了OpenAI？	['https://www.huxiu.com/article/4618070.html', '2025-07-25', '虎嗅网']
+AI搜索的未来，是直接给你答案？	['https://www.huxiu.com/article/4617219.html', '2025-07-25', '虎嗅网']
+科技媒体，现在进化成什么样子了？	['https://www.huxiu.com/article/4617163.html', '2025-07-25', '虎嗅网']
+如何在AI代理主导的世界里，做一个人类CEO ？	['https://www.huxiu.com/article/4617153.html', '2025-07-25', '虎嗅网']
+原创 智能眼镜领头羊，道出行业泡沫	['https://www.huxiu.com/article/4614385.html', '2025-07-25', '虎嗅网']
+具身智能最先跑出的“杀手级产品”，或许是陪伴机器人	['https://www.huxiu.com/article/4614340.html', '2025-07-24', '虎嗅网']
+原创 老板，AI不是“裁员工具”	['https://www.huxiu.com/article/4614415.html', '2025-07-24', '虎嗅网']
+人形机器人量产元年过半，宇树、智元后业内呼唤“第三位”	['https://www.huxiu.com/article/4584516.html', '2025-07-24', '虎嗅网']
+别放过机器狗，但要在巨人阴影下进攻	['https://www.huxiu.com/article/4614339.html', '2025-07-24', '虎嗅网']
+微信支付宝，开打Agent	['https://www.huxiu.com/article/4613237.html', '2025-07-24', '虎嗅网']
+特朗普签署“AI行动计划”，万亿美金押注全球AI霸权	['https://www.huxiu.com/article/4612819.html', '2025-07-24', '虎嗅网']
+当人类认知被自动化，我们会迎来“无人公司”吗？	['https://www.huxiu.com/article/4611845.html', '2025-07-24', '虎嗅网']
+亚马逊关停中国最后AI堡垒，中美科技“旋转门”正在卡死	['https://www.huxiu.com/article/4612483.html', '2025-07-24', '虎嗅网']
+帮你识别一下关于AI的那些“装腔作势”	['https://www.huxiu.com/article/4612203.html', '2025-07-24', '虎嗅网']
+人脸识别，正变得难以抵抗AI风险？	['https://www.huxiu.com/article/4611847.html', '2025-07-24', '虎嗅网']
+AI开始“骗人”，我们还能相信它吗？	['https://www.huxiu.com/article/4610260.html', '2025-07-23', '虎嗅网']
+荣幸，小小的Get笔记居然被腾讯举报了	['https://www.huxiu.com/article/4610311.html', '2025-07-23', '虎嗅网']
+苹果AI雪崩内幕：核心大将14亿被挖走，团队边缘化	['https://www.huxiu.com/article/4610244.html', '2025-07-23', '虎嗅网']
+你眼中的新产品，竟都是科技缝合怪？	['https://www.huxiu.com/article/4609180.html', '2025-07-23', '虎嗅网']
+如何避免成为AI墓地的一员？	['https://www.huxiu.com/article/4609393.html', '2025-07-23', '虎嗅网']
+AI智能体，为什么看不懂？	['https://www.huxiu.com/article/4608659.html', '2025-07-23', '虎嗅网']
+原创 一场对抗OpenAI们的“危险游戏”	['https://www.huxiu.com/article/4605158.html', '2025-07-23', '虎嗅网']
+AI来了，打工人能快乐摸鱼吗?	['https://www.huxiu.com/article/4606623.html', '2025-07-22', '虎嗅网']
+原创 李开复的AI公司怎么样了？	['https://www.huxiu.com/article/4606662.html', '2025-07-22', '虎嗅网']
+如何用AI构建个人知识库？	['https://www.huxiu.com/article/4606096.html', '2025-07-22', '虎嗅网']
+多模态都是假的：最强模型数不清手指、认不出雷碧	['https://www.huxiu.com/article/4606074.html', '2025-07-22', '虎嗅网']
+约束，AI创造力的真正源泉	['https://www.huxiu.com/article/4605182.html', '2025-07-22', '虎嗅网']
+一码难求背后，能自己上线应用的AI产品野心多大？	['https://www.huxiu.com/article/4605168.html', '2025-07-22', '虎嗅网']
+AI编码史诗级翻车：Replit一键删光客户数据库	['https://www.huxiu.com/article/4601972.html', '2025-07-22', '虎嗅网']
+苹果遭遇AI危机，供应商在逃离“果链”中进退两难	['https://www.huxiu.com/article/4602825.html', '2025-07-21', '虎嗅网']
+OpenAI自封奥数金牌被全网爆锤，数学大神公开质疑	['https://www.huxiu.com/article/4602643.html', '2025-07-21', '虎嗅网']
+融资飙涨的AI Agent，还有投资机会吗？	['https://www.huxiu.com/article/4601659.html', '2025-07-21', '虎嗅网']
+Nature刊文称“AI可模拟人类心智”，Science同日强烈质疑	['https://www.huxiu.com/article/4601636.html', '2025-07-21', '虎嗅网']
+原创 宇树终于坐不住了	['https://www.huxiu.com/article/4599267.html', '2025-07-20', '虎嗅网']
+原创 AI女友正在变成马斯克的印钞机	['https://www.huxiu.com/article/4599507.html', '2025-07-20', '虎嗅网']
+OpenAI“截胡”IMO金牌，奥特曼为GPT-5献上“核弹级”预热	['https://www.huxiu.com/article/4598818.html', '2025-07-20', '虎嗅网']
+“AI登月时刻”，OpenAI模型摘取奥数金牌	['https://www.huxiu.com/article/4597635.html', '2025-07-20', '虎嗅网']
+OpenAI会杀死Manus们吗？	['https://www.huxiu.com/article/4596874.html', '2025-07-20', '虎嗅网']
+在OpenAI上班有多卷？	['https://www.huxiu.com/article/4596510.html', '2025-07-19', '虎嗅网']
+Manus“删博、裁员、跑路新加坡”后，创始人首次复盘经验教训	['https://www.huxiu.com/article/4595532.html', '2025-07-19', '虎嗅网']
+算力焦虑背后的认知博弈	['https://www.huxiu.com/article/4595157.html', '2025-07-19', '虎嗅网']
+ChatGPT Agent遭暴击，国产AI轮番“公开处刑”	['https://www.huxiu.com/article/4595146.html', '2025-07-19', '虎嗅网']
+创业9年，宇树科技正式开启IPO	['https://www.huxiu.com/article/4592978.html', '2025-07-18', '虎嗅网']
+OpenAI发布Agent，我们想让它“自己报道自己”	['https://www.huxiu.com/article/4591980.html', '2025-07-18', '虎嗅网']
+72小时瓦解200亿独角兽	['https://www.huxiu.com/article/4591487.html', '2025-07-18', '虎嗅网']
+英伟达“丢掉”的1000亿，国产平替还能继续赚吗？	['https://www.huxiu.com/article/4591171.html', '2025-07-18', '虎嗅网']
+这次，Meta挖走了OpenAI真正的核心成员	['https://www.huxiu.com/article/4590993.html', '2025-07-18', '虎嗅网']
+原创 5个月狂赚4000万美金，一名“工作狂”的绝地求生	['https://www.huxiu.com/article/4590545.html', '2025-07-18', '虎嗅网']
+原创 给陷入ROI的营销朋友，列一份短名单	['https://www.huxiu.com/article/4584538.html', '2025-07-18', '虎嗅网']
+OpenAI发布ChatGPT版Manus，奥特曼：感受AGI时刻	['https://www.huxiu.com/article/4589818.html', '2025-07-18', '虎嗅网']
+穿回黑色皮衣的黄仁勋与王坚“炉边对话”：有点“嫉妒年轻一代”	['https://www.huxiu.com/article/4590152.html', '2025-07-18', '虎嗅网']
+刚刚，OpenAI发布了自己的Agent模式，能干什么？	['https://www.huxiu.com/article/4589817.html', '2025-07-18', '虎嗅网']
+离职工程师长文复盘：为什么OpenAI总能诞生伟大产品？	['https://www.huxiu.com/article/4587802.html', '2025-07-17', '虎嗅网']
+人类击败AI编程夺冠，效率提高竟是“幻觉”？	['https://www.huxiu.com/article/4587841.html', '2025-07-17', '虎嗅网']
+99%的AI公司都是泡沫	['https://www.huxiu.com/article/4586793.html', '2025-07-17', '虎嗅网']
+在这个世界级编程竞赛中，这可能是人类最后一次战胜AI了	['https://www.huxiu.com/article/4586794.html', '2025-07-17', '虎嗅网']
+6名员工，半年用AI实现财富自由	['https://www.huxiu.com/article/4587044.html', '2025-07-17', '虎嗅网']
+原创 当黄仁勋换上唐装	['https://www.huxiu.com/article/4586475.html', '2025-07-17', '虎嗅网']
+给论文植入“求好评”提示词，是AI时代的魔法对轰吗？	['https://www.huxiu.com/article/4586474.html', '2025-07-17', '虎嗅网']
+这个AI浏览器，替我给女朋友打了“分手电话”	['https://www.huxiu.com/article/4584034.html', '2025-07-16', '虎嗅网']
+OpenAI大腿又被挖，Meta如此豪赌究竟图什么？	['https://www.huxiu.com/article/4584288.html', '2025-07-16', '虎嗅网']
+今天，黄仁勋90分钟小范围交流，都谈了什么？	['https://www.huxiu.com/article/4584910.html', '2025-07-16', '虎嗅网']
+AI真的让我们更平庸了吗？	['https://www.huxiu.com/article/4584493.html', '2025-07-16', '虎嗅网']
+马斯克AI女友上线24h爆火，全球宅男连夜充值	['https://www.huxiu.com/article/4584244.html', '2025-07-16', '虎嗅网']
+巨头抢人，华人抢戏	['https://www.huxiu.com/article/4584017.html', '2025-07-16', '虎嗅网']
+混合现实的山头，来了个老朋友：字节跳动MR眼镜研发曝光	['https://www.huxiu.com/article/4583682.html', '2025-07-16', '虎嗅网']
+H20解禁，英伟达地位动摇？	['https://www.huxiu.com/article/4583475.html', '2025-07-16', '虎嗅网']
+原创 手搓第一个AI程序后，这位95后决定“反共识”创业｜AI原生100	['https://www.huxiu.com/article/4583476.html', '2025-07-16', '虎嗅网']
+为什么S Pen死了，Apple Pencil却活得越来越好？	['https://www.huxiu.com/article/4582256.html', '2025-07-16', '虎嗅网']
+原创 黄仁勋释怀了	['https://www.huxiu.com/article/4582265.html', '2025-07-15', '虎嗅网']
+VC、大厂、国资，为何争先下注具身智能？	['https://www.huxiu.com/article/4581510.html', '2025-07-15', '虎嗅网']
+梁文锋等来及时雨	['https://www.huxiu.com/article/4581106.html', '2025-07-15', '虎嗅网']
+字节PM深度复盘：有了剪映，为啥TikTok还要死磕Editor Pro？	['https://www.huxiu.com/article/4580597.html', '2025-07-15', '虎嗅网']
+平台说我可以给你流量，但内容归我，账号也归我	['https://www.huxiu.com/article/4580069.html', '2025-07-15', '虎嗅网']
+谷歌24亿美元挖角后，Windsurf转投华人明星AI公司	['https://www.huxiu.com/article/4579582.html', '2025-07-15', '虎嗅网']
+一文看懂：Grok 4到底强在哪里？	['https://www.huxiu.com/article/4577034.html', '2025-07-14', '虎嗅网']
+一个200美元的AI浏览器，想重新教会我“上网”	['https://www.huxiu.com/article/4577792.html', '2025-07-14', '虎嗅网']
+DeepSeek流量下滑，这半年梁文锋都干了啥？	['https://www.huxiu.com/article/4576829.html', '2025-07-14', '虎嗅网']
+在家门口看病，AI医疗让梦想照进现实	['https://www.huxiu.com/article/4576809.html', '2025-07-14', '虎嗅网']
+估值百亿的AI独角兽，都有哪些特质？	['https://www.huxiu.com/article/4577037.html', '2025-07-14', '虎嗅网']
+大模型套壳往事	['https://www.huxiu.com/article/4577306.html', '2025-07-14', '虎嗅网']
+2025，黄仁勋“三顾大陆”，与雷军亲密合影	['https://www.huxiu.com/article/4577293.html', '2025-07-14', '虎嗅网']
+K2开源大模型，会是Kimi的DeepSeek时刻吗？	['https://www.huxiu.com/article/4575100.html', '2025-07-14', '虎嗅网']
+从风口到风暴，Manus的130天	['https://www.huxiu.com/article/4576061.html', '2025-07-14', '虎嗅网']
+扎克伯格准备偷袭马斯克，华裔技术人才成为AI致胜关键	['https://www.huxiu.com/article/4576048.html', '2025-07-14', '虎嗅网']
+当AI写作开始“驯化”风格	['https://www.huxiu.com/article/4573526.html', '2025-07-13', '虎嗅网']
+原创 知情人士向虎嗅独家回应：Manus一切正常	['https://www.huxiu.com/article/4573141.html', '2025-07-13', '虎嗅网']
+一个价值1000亿的词，让OpenAI和微软杠上了	['https://www.huxiu.com/article/4572672.html', '2025-07-13', '虎嗅网']
+谷歌170亿收编Windsurf，硅谷“AI挖人”白热化	['https://www.huxiu.com/article/4572659.html', '2025-07-13', '虎嗅网']
+麦当劳AI招聘系统被30分钟攻破，6400万求职者信息一览无遗	['https://www.huxiu.com/article/4571265.html', '2025-07-12', '虎嗅网']
+又一华人科学家被挖走，OpenAI人才加速流失	['https://www.huxiu.com/article/4570814.html', '2025-07-12', '虎嗅网']
+Meta离职大牛怒揭黑幕：内斗、抢功、末位裁员，全是毒瘤	['https://www.huxiu.com/article/4569960.html', '2025-07-12', '虎嗅网']
+Manus被Reverse CFIUS调查，“AI套壳”类产品要注意些什么？	['https://www.huxiu.com/article/4569700.html', '2025-07-12', '虎嗅网']
+美国芯片行业现状	['https://www.huxiu.com/article/4569675.html', '2025-07-12', '虎嗅网']
+“太晚了，追不上英伟达了”：英特尔新CEO内部讲话泄露	['https://www.huxiu.com/article/4569691.html', '2025-07-12', '虎嗅网']
+Kakao与OpenAI合作落地，韩国版微信能“干活”了？	['https://www.huxiu.com/article/4569100.html', '2025-07-12', '虎嗅网']
+OpenAI 30亿美元收购案黄了，AI 编程明星公司被谷歌截胡	['https://www.huxiu.com/article/4568762.html', '2025-07-12', '虎嗅网']
+原创 700万美金ARR背后：95后如何管理天才员工	['https://www.huxiu.com/article/4567084.html', '2025-07-12', '虎嗅网']
+国产GPU厂商的“烧钱与梦想”	['https://www.huxiu.com/article/4567891.html', '2025-07-11', '虎嗅网']
+“偷师”中国的印度，能偷出个印度制造吗？	['https://www.huxiu.com/article/4567615.html', '2025-07-11', '虎嗅网']
+台积电“退出”，谁来接棒？	['https://www.huxiu.com/article/4567619.html', '2025-07-11', '虎嗅网']
+马斯克最贵AI首批实测，Grok4一边封神一边翻车	['https://www.huxiu.com/article/4567111.html', '2025-07-11', '虎嗅网']
+DeepSeek向王一博道歉闹剧：AI幻觉不是病，别治了	['https://www.huxiu.com/article/4566247.html', '2025-07-11', '虎嗅网']
+智能体生死局：80%创业者都死在这一关	['https://www.huxiu.com/article/4566201.html', '2025-07-11', '虎嗅网']
+原创 哈佛辍学00后如何创下20亿美元财富神话｜AI原生100	['https://www.huxiu.com/article/4563981.html', '2025-07-11', '虎嗅网']
+AI们数不清六根手指，这事没那么简单	['https://www.huxiu.com/article/4566041.html', '2025-07-11', '虎嗅网']
+信息蜂房，算法破茧	['https://www.huxiu.com/article/4565741.html', '2025-07-11', '虎嗅网']
+2025上半年，AI Agent领域有什么变化和机会？	['https://www.huxiu.com/article/4565754.html', '2025-07-11', '虎嗅网']
+马斯克最新访谈：第一性原理是超能力	['https://www.huxiu.com/article/4564510.html', '2025-07-11', '虎嗅网']
+原创 特朗普杀死新能源	['https://www.huxiu.com/article/4563255.html', '2025-07-10', '虎嗅网']
+Manus肖弘“超级激进”	['https://www.huxiu.com/article/4563951.html', '2025-07-10', '虎嗅网']
+马斯克发布Grok 4：“最聪明”但也最贵的AI？	['https://www.huxiu.com/article/4563430.html', '2025-07-10', '虎嗅网']
+扎克伯格的“天才名单”：上亿重金能否砸出Meta的AI未来	['https://www.huxiu.com/article/4563273.html', '2025-07-10', '虎嗅网']
+原创 裁员66%背后的AI生死局：Manus何以至此？	['https://www.huxiu.com/article/4563425.html', '2025-07-10', '虎嗅网']
+Cluely硅谷爆火的另一面：功能被狂喷，增长渠道成谜？	['https://www.huxiu.com/article/4562725.html', '2025-07-10', '虎嗅网']
+原创 走进四川这家工厂，我看到了智元机器人的“诞生”	['https://www.huxiu.com/article/4563268.html', '2025-07-10', '虎嗅网']
+OpenAI即将推出AI浏览器，直接挑战谷歌Chrome霸主地位	['https://www.huxiu.com/article/4562779.html', '2025-07-10', '虎嗅网']
+失业率达艺术史2倍，计算机科学专业不再是稳定职业保障？	['https://www.huxiu.com/article/4562050.html', '2025-07-10', '虎嗅网']
+万亿投资后，5G怎么失灵了？	['https://www.huxiu.com/article/4559953.html', '2025-07-09', '虎嗅网']
+下一任苹果CEO，可能是这位iPhone掌舵人	['https://www.huxiu.com/article/4559058.html', '2025-07-09', '虎嗅网']
+Web3求职市场报告：1万人挤28岗，你该怎么赢？	['https://www.huxiu.com/article/4558399.html', '2025-07-09', '虎嗅网']
+中国论文工厂，已经用AI批量生产垃圾论文了？	['https://www.huxiu.com/article/4558562.html', '2025-07-09', '虎嗅网']
+好险，差点被DeepSeek幻觉害死	['https://www.huxiu.com/article/4558550.html', '2025-07-09', '虎嗅网']
+“库克接班人”官宣退休，曾主导Apple Watch诞生	['https://www.huxiu.com/article/4558585.html', '2025-07-09', '虎嗅网']
+原创 Manus向虎嗅回应：将专注核心业务发展，提升整体运营效率	['https://www.huxiu.com/article/4557258.html', '2025-07-09', '虎嗅网']
+稚晖君，昨夜冲进了科创板	['https://www.huxiu.com/article/4557828.html', '2025-07-09', '虎嗅网']
+扎克伯格在硅谷“杀疯了”：苹果华人AI高管被挖，年薪数千万美元	['https://www.huxiu.com/article/4556147.html', '2025-07-09', '虎嗅网']
+AI让你失业，也成了你唯一的安慰者	['https://www.huxiu.com/article/4554752.html', '2025-07-08', '虎嗅网']
+李飞飞：高校学生应追逐AI“北极星”问题	['https://www.huxiu.com/article/4554064.html', '2025-07-08', '虎嗅网']
+库克你赶紧退休，放过苹果吧	['https://www.huxiu.com/article/4554554.html', '2025-07-08', '虎嗅网']
+AI成为了互联网的流量劫匪	['https://www.huxiu.com/article/4554375.html', '2025-07-08', '虎嗅网']
+芯片之外，中美AI拼的是能源？	['https://www.huxiu.com/article/4553580.html', '2025-07-08', '虎嗅网']
+“强制好评”指令潜入AI审稿，学术圈何以规则失守？	['https://www.huxiu.com/article/4554094.html', '2025-07-08', '虎嗅网']
+原创 90后辍学生16个月收入翻20倍的秘密｜AI原生100	['https://www.huxiu.com/article/4551311.html', '2025-07-08', '虎嗅网']
+猫怎么成了大模型“天敌”?	['https://www.huxiu.com/article/4552141.html', '2025-07-08', '虎嗅网']
+香港特斯拉降价“狙击”内地电动车？	['https://www.huxiu.com/article/4550832.html', '2025-07-07', '虎嗅网']
+AI，开始重组互联网大厂了	['https://www.huxiu.com/article/4551297.html', '2025-07-07', '虎嗅网']
+“人造太阳”有多难？	['https://www.huxiu.com/article/4544907.html', '2025-07-07', '虎嗅网']
+MIT如何做硬科技技术转化？	['https://www.huxiu.com/article/4550828.html', '2025-07-07', '虎嗅网']
+这款AI浏览器，让我惊喜，又有点“后怕”	['https://www.huxiu.com/article/4550781.html', '2025-07-07', '虎嗅网']
+AI版的OnlyFans，要抢走福利姬饭碗了？	['https://www.huxiu.com/article/4550079.html', '2025-07-07', '虎嗅网']
+“年薪1亿美元”的AI研究员，何许人也？	['https://www.huxiu.com/article/4547594.html', '2025-07-06', '虎嗅网']
+聊聊扎克伯格疯狂的天价抢人	['https://www.huxiu.com/article/4547097.html', '2025-07-06', '虎嗅网']
+Jack Clark: 美国AI政策的隐形推手，时代的良心还是囚徒？	['https://www.huxiu.com/article/4541322.html', '2025-07-06', '虎嗅网']
+原创 特斯拉、英伟达机器人背后的“卖水人”	['https://www.huxiu.com/article/4544478.html', '2025-07-06', '虎嗅网']
+不要拿AI造工具，要建设“新关系”	['https://www.huxiu.com/article/4544896.html', '2025-07-05', '虎嗅网']
+地球在变暖，这群人却用冰做“硬盘”	['https://www.huxiu.com/article/4544178.html', '2025-07-05', '虎嗅网']
+AI分身24小时营业，OnlyFans网红躺赚百万	['https://www.huxiu.com/article/4543781.html', '2025-07-05', '虎嗅网']
+没有电池，就没有AGI	['https://www.huxiu.com/article/4542056.html', '2025-07-05', '虎嗅网']
+EDA出口管制解除，对中国半导体影响几何？	['https://www.huxiu.com/article/4540752.html', '2025-07-04', '虎嗅网']
+OpenAI对微软的“独立战争”	['https://www.huxiu.com/article/4540463.html', '2025-07-04', '虎嗅网']
+我军两艘航母首次对外开放，为何都设在香港？	['https://www.huxiu.com/article/4540479.html', '2025-07-04', '虎嗅网']
+AI写综述，靠谱吗？	['https://www.huxiu.com/article/4539762.html', '2025-07-04', '虎嗅网']
+Meta薪资接连曝光，AI人才百万年薪遍地走	['https://www.huxiu.com/article/4539763.html', '2025-07-04', '虎嗅网']
+当DeepSeek都认为“DeepSeek向王一博道歉”了	['https://www.huxiu.com/article/4539749.html', '2025-07-04', '虎嗅网']
+AI墓地的1289个项目，写着创业的九死一生	['https://www.huxiu.com/article/4539583.html', '2025-07-04', '虎嗅网']
+微软裁员9000人后：AI成为自救唯一之路？	['https://www.huxiu.com/article/4539569.html', '2025-07-04', '虎嗅网']
+你的验证码又升级了：虐完人类不过瘾，现在要收拾AI了	['https://www.huxiu.com/article/4539580.html', '2025-07-04', '虎嗅网']
+AI顶尖人才工资超过两个詹姆斯？他们以后还会拿更多	['https://www.huxiu.com/article/4535702.html', '2025-07-04', '虎嗅网']
+原创 国产GPU爆发，但仍未迈过那道天堑	['https://www.huxiu.com/article/4536665.html', '2025-07-04', '虎嗅网']
+科学家Ilya不想当CEO，都是扎克伯格逼的	['https://www.huxiu.com/article/4539535.html', '2025-07-04', '虎嗅网']
+为什么AI产品动不动就搞“邀请制”？	['https://www.huxiu.com/article/4539221.html', '2025-07-04', '虎嗅网']
+戴雨森：从“没必要付费”到“非用不可”，AI冲击最快增长纪录	['https://www.huxiu.com/article/4539174.html', '2025-07-04', '虎嗅网']
+原创 DeepSeek对“王一博案”道歉？假新闻！	['https://www.huxiu.com/article/4537198.html', '2025-07-03', '虎嗅网']
+Nature研究遭质疑：像人类一样思考的AI，竟有点“荒谬”？	['https://www.huxiu.com/article/4536236.html', '2025-07-03', '虎嗅网']
+靠1份假简历拿5份工资，硅谷AI公司被骗麻了	['https://www.huxiu.com/article/4535764.html', '2025-07-03', '虎嗅网']
+“美国国运股”Palantir，怎么靠AI Agent大涨3000亿美元？	['https://www.huxiu.com/article/4532180.html', '2025-07-03', '虎嗅网']
+微软再裁9000人，白领“大屠杀”来袭	['https://www.huxiu.com/article/4535350.html', '2025-07-03', '虎嗅网']
+一份假简历领5份硅谷AI工资，印度老哥真是不得了	['https://www.huxiu.com/article/4534922.html', '2025-07-03', '虎嗅网']
+美国EDA恢复供应？	['https://www.huxiu.com/article/4534501.html', '2025-07-03', '虎嗅网']
+被逼转型的晶圆代工巨头	['https://www.huxiu.com/article/4534302.html', '2025-07-03', '虎嗅网']
+下载量暴跌八成，AI社交涨不动了	['https://www.huxiu.com/article/4532115.html', '2025-07-03', '虎嗅网']
+航母百年，为何能坐稳“海上霸主”？	['https://www.huxiu.com/article/584761.html', '2025-07-03', '虎嗅网']
+AI作弊公司爆火，是资本饥不择食，还是创业范式迭代？	['https://www.huxiu.com/article/4534282.html', '2025-07-03', '虎嗅网']
+清北中科大学霸正在“统治”硅谷AI 圈	['https://www.huxiu.com/article/4532383.html', '2025-07-02', '虎嗅网']
+“免费午餐”时代终结，AI巨头要交“过路费”了？	['https://www.huxiu.com/article/4532318.html', '2025-07-02', '虎嗅网']
+AI训练版权重大判决：合法扫描可接受，盗版下载仍侵权	['https://www.huxiu.com/article/4532389.html', '2025-07-02', '虎嗅网']
+24G+1TB？华为Mate 80彻底大改，最强直屏杀回来了	https://news.qq.com/rain/a/20250724A09JFG00
+原子弹和航天都厉害的苏联，为啥搞不出先进芯片？	https://news.qq.com/rain/a/20250723V07K5K00
+英特尔首次警告考虑放弃研发下一代尖端芯片，美媒：可能是美芯片制造业末日的开端	https://news.qq.com/rain/a/20250725A04QGE00
+京东七鲜小厨门店上线：两菜一汤20元，菜品不到10种，4千人看直播炒菜	https://news.qq.com/rain/a/20250724A08W7H00
+又变了！华为Mate80「新专利」曝光，将内置超薄风扇？	https://news.qq.com/rain/a/20250724A07YZQ00
+阿里深夜祭出全球最强编程模型:凭什么带动股价“应声起飞”?	https://news.qq.com/rain/a/20250724V09E1M00
+宇树上市，这绝非一次普通的IPO	https://news.qq.com/rain/a/20250724A06FQA00
+上海警方：饿了么收受贿赂案抓获7人，涉案金额4000多万	https://news.qq.com/rain/a/20250724A06RGX00
+如何告别一台死去的iPhone	https://news.qq.com/rain/a/20250723A073Q000
+号称彻底解决食品安全问题，京东“亲自”炒菜靠谱吗？	https://news.qq.com/rain/a/20250725V03X1X00
+芯片巨头宣布：裁员2.1万	https://news.qq.com/rain/a/20250725A02Z0900
+怒降2000多的小米Ultra，又成了国产第一！	https://news.qq.com/rain/a/20250723A09RQQ00
+互联网大厂用食堂拿捏打工人	['https://www.sohu.com/a/917196763_121321723?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.56.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+突然发疯！人形格斗冠军机器人凌空回旋踢，架子都干翻，现场人员懵了	https://news.qq.com/rain/a/20250724A06EFY00
+华为Pura 80数字版上手测评：岂止拍照，续航远超所望！	https://news.qq.com/rain/a/20250724V08SKM00
+马斯克的“饼”继续画！特斯拉廉价车型将投产，新六座车来抢小米订单	https://news.qq.com/rain/a/20250724A06ZID00
+大疆扫地机来了！五年磨一剑的ROMO能否重现无人机辉煌？	https://news.qq.com/rain/a/20250724A0979800
+EUV光刻胶！清华大学取得重要进展	https://news.qq.com/rain/a/20250723A080Z400
+从羽绒服换技术到卡美国脖子，一口气了解中国人造太阳前世今生	https://news.qq.com/rain/a/20250725V04D3800
+广东半导体材料独角兽冲刺港交所！中国第一，华为比亚迪参投	https://news.qq.com/rain/a/20250724A099R500
+5.5mm 10100mAh ！华为刚发布的旗舰新机太狠了	https://news.qq.com/rain/a/20250725A0480G00
+iOS 26 公测版更新！这是 iPhone 未来十年的模样	https://news.qq.com/rain/a/20250725A02FMX00
+马斯克的机器人餐厅开张了 看看擎天柱能提供什么服务	https://news.qq.com/rain/a/20250723V05UGI00
+一家好不容易盈利的生鲜电商，如何躲避即时零售大乱斗？	https://news.qq.com/rain/a/20250724A09G6P00
+诺基亚发了台169元的新机，这操作把网友们整不会了	https://news.qq.com/rain/a/20250722A09PAD00
+俄罗斯为什么曝光天竺葵无人机生产线，真的有朝鲜人在生产吗？	https://news.qq.com/rain/a/20250724V0892S00
+县城手机店，消失于街头	https://news.qq.com/rain/a/20250723A032YW00
+芯片，要变了！	https://news.qq.com/rain/a/20250725A02T1J00
+vivo X300 Pro渲染图曝光：经典圆形镜头模组设计	https://news.qq.com/rain/a/20250725A048C000
+iPhone 17全系“提前”上手，全网最细爆料汇总	https://news.qq.com/rain/a/20250721V0553Z00
+微信支付正式接入鸿蒙操作系统5收银台功能，离全面适配更进一步	https://news.qq.com/rain/a/20250724A05XTK00
+光刻机输家的反击	https://news.qq.com/rain/a/20250724A02B5600
+砸10亿买菜谱，刘强东要硬刚幽灵外卖	https://news.qq.com/rain/a/20250725A03PSB00
+博士发明蚊子“快乐水”：棉球蘸糖水白嫖蚊子唾液，实验率暴增50%	https://news.qq.com/rain/a/20250723V063LH00
+揭秘“邪修”郑州帮：编辑10万人，日产笔记50万+	https://news.qq.com/rain/a/20250724A04R8F00
+200美元键盘卖爆美日，这家深圳企业靠“反内卷设计”年收入过亿	https://news.qq.com/rain/a/20250725A02EZ600
+啧啧，华为新机加量还降300，感觉友商真危险了	https://news.qq.com/rain/a/20250724A09JFA00
+一根瓜竟能摇身变跨境爆品：TikTok热推，独立站卖断货，90后姑娘返乡创业年销3700万！	https://news.qq.com/rain/a/20250723A06EZ900
+刘强东别做外卖 这是阴谋！	https://news.qq.com/rain/a/20250724V0A2NZ00
+千亿市值豪威集团冲刺IPO，“中国芯片首富”虞仁荣再下一城	https://news.qq.com/rain/a/20250724A09GRI00
+iPhone 17系列有三家屏幕供应商：全系支持120Hz高刷新率	https://news.qq.com/rain/a/20250725A048C400
+对话阿里“贵人”关明生：创业必须想清楚三个问题，否则可能会饿死	https://news.qq.com/rain/a/20250725A03OPV00
+2025旗舰机流畅度大战！优化多年，谁还在翻车?	https://news.qq.com/rain/a/20250723V06G7H00
+英伟达H20解禁是一场关于未来的集体押注，周鸿祎站队华为：“国产芯片跟英伟达肯定有差距，但是必须用”	https://news.qq.com/rain/a/20250725A01O4V00
+苹果详解iOS 18.6更新：主要是修复问题、提升流畅度	https://news.qq.com/rain/a/20250724A09QHR00
+时隔两年，我又被AI写真整破防了	https://news.qq.com/rain/a/20250725A02AZA00
+马斯克成立美国党，背后藏着一个不为人知的故事	https://news.qq.com/rain/a/20250722V07XD700
+李佳琦道歉！赔付方案公布	https://news.qq.com/rain/a/20250724A09TT100
+特斯拉大跌，市值蒸发超6800亿元，特朗普发文否认要摧毁马斯克公司	https://news.qq.com/rain/a/20250724A0A1EG00
+这就是底气！华为Pura 80 Ultra 影像对比 iPhone16 Pro Max、三星S25 Ultra	https://news.qq.com/rain/a/20250719V05HF800
+这才是IMO奥赛战神：满分，5战3金，刚被MIT录取	https://news.qq.com/rain/a/20250723A08L8600
+颠覆通用CPU，全球最省电处理器，正式发布	https://news.qq.com/rain/a/20250725A02T0E00
+英特尔：大裁员后，美式 “中芯” 就是好终局？	https://news.qq.com/rain/a/20250725A02KHY00
+汪滔，中国最神秘的CEO，是如何一手创立大疆的？	https://news.qq.com/rain/a/20250719V055EP00
+印度手机出货：vivo蝉联第一，小米掉至第四，苹果第六	https://news.qq.com/rain/a/20250723A06PQJ00
+AI当考官：《滕王阁序》被判成100%AI生成，朱自清文章被标高风险	https://news.qq.com/rain/a/20250723A02MRZ00
+搞个AI工具卖了5.7亿！31岁程序员爆肝180天，零融资、不卷人，半年即实现财富自由	https://news.qq.com/rain/a/20250722A07LPA00
+美国为啥又允许卖芯片给中国？不是良心发现，而是卡不住了！	https://news.qq.com/rain/a/20250722V03DEU00
+铂爵旅拍爆雷，李佳琦卷入「烂尾」风波	https://news.qq.com/rain/a/20250724A0935G00
+麻省理工毕业，这位印度工程师来大湾区搞“黑科技”！	https://news.qq.com/rain/a/20250725A01TN100
+TCL电子2025上半年业绩：Mini LED出货全球第一，整体TV全球第二	https://news.qq.com/rain/a/20250724A05DFE00
+苹果发布首个iOS 26公测版：iPhone11后续机型可更新 国行版还是没AI	https://news.qq.com/rain/a/20250725A023MF00
+内存扩展到底有没有用？2025虚拟内存功能实测	https://news.qq.com/rain/a/20250723V0632X00
+华为Mate 80外观首曝：采用大圆镜头方案 还要玩花活	https://news.qq.com/rain/a/20250725A048CS00
+阿里，一张王炸！	https://news.qq.com/rain/a/20250724A05IL700
+套餐资费“老大难”何解？三大运营商集体表态	https://news.qq.com/rain/a/20250725A02B0Z00
+iPhone 17 Pro Max国行版本价格预测	https://news.qq.com/rain/a/20250719V08CNQ00
+刘强东王兴，再次狭路相逢	https://news.qq.com/rain/a/20250723A08QME00
+FDI救不了越南科技！电力短缺+人才荒，越南如何破局全球价值链？	https://news.qq.com/rain/a/20250724A028I500
+Q2亏损29亿美元！英特尔取消德国及波兰建厂，还将再裁员20%！	https://news.qq.com/rain/a/20250725A033V100
+阿里企业级Agent出手！受气包客服秒变为价值增长中心	https://news.qq.com/rain/a/20250723V07C0W00
+2035年3.5万亿！低空经济能否复制新能源汽车奇迹	https://news.qq.com/rain/a/20250724A0732F00
+互连芯片巨头澜起科技手握86亿仍要赴港募资！近40亿存放境外，英特尔减持套现超19亿	https://news.qq.com/rain/a/20250724A01PNX00
+《传音·重生之我在印尼当三星》	https://news.qq.com/rain/a/20250723V079FX00
+董宇辉，归来仍是文化人？	https://news.qq.com/rain/a/20250723A07EY700
+阿里云通义千问宣布 Qwen-MT 机器翻译模型：支持 92 种语言互译	https://news.qq.com/rain/a/20250725A02JG700
+扎克伯格式人才掠夺：一亿美元天价薪酬挖角AI最强大脑	https://news.qq.com/rain/a/20250725A01UWV00
+黄仁勋《面对面》最新专访解析	https://news.qq.com/rain/a/20250722V02POW00
+5G手表伴随iPhone 17将至，RedCap消费市场迎转机？	https://news.qq.com/rain/a/20250724A07F8800
+京东盯上了“幽灵外卖”	https://news.qq.com/rain/a/20250724A091CX00
+AI教父Hinton首次现身中国，合照全网刷屏！预警AI觉醒临界点已至	https://news.qq.com/rain/a/20250725A04Y4200
+华为首款Pro级手写笔震撼登场，搭载超万级压感和星闪技术！	https://news.qq.com/rain/a/20250725V04OFW00
+苹果iOS 26公测版来了，2013年来最大界面改版	https://news.qq.com/rain/a/20250725A01CO700
+黄质潘出任星纪魅族集团新CEO，官方回应	https://news.qq.com/rain/a/20250725A0491F00
+平板电脑又杀回来了	https://news.qq.com/rain/a/20250722A098CH00
+35人8个月1亿美元！史上增长最快AI公司发布Agent，错误率暴降91%	https://news.qq.com/rain/a/20250724A06FUO00
+ICML史上首次，中国内地高校教授出任董事！北大林宙辰、上交大严骏驰获选	https://news.qq.com/rain/a/20250725A04Y4800
+别笑！机器人自己换电池，竟是改写机器命运的第一步	https://news.qq.com/rain/a/20250724V04QXQ00
+iPhone倒逼eSIM回归，落地可能就在今年	https://news.qq.com/rain/a/20250725A01UFL00
+这颗“中国芯”，走出“中国路”	https://news.qq.com/rain/a/20250722A06AXF00
+OpenAI资金链告急！紧急启动300亿美金融资，星际之门岌岌可危	https://news.qq.com/rain/a/20250724A085PD00
+谁让做得这么上头的！三星Galaxy Z Flip7 太骚了	https://news.qq.com/rain/a/20250721V08JRM00
+从“信号孤岛”到“满格边疆”，实探中国移动网络新基建	https://news.qq.com/rain/a/20250725A03EW400
+为降低中国依赖，日本研发无重稀土电机磁铁	https://news.qq.com/rain/a/20250725A0460W00
+高通在谈Wi-Fi 8了，但重点不在速度	https://news.qq.com/rain/a/20250724A07WR600
+iPhone 17全系机模上手：除了Air的薄，还有拿得出手的吗？	https://news.qq.com/rain/a/20250714V086LP00
+99年华人科学家创业，推出全球首个视觉记忆大模型，无限上下文，已获三星投资	https://news.qq.com/rain/a/20250725A054XX00
+丑得离谱 却可能改写历史！NASA官宣X59启动滑行	https://news.qq.com/rain/a/20250722V0945X00
+“无人机之王”大疆杀入扫地机器人市场：前五大品牌已占据近九成份额	https://news.qq.com/rain/a/20250724A0829P00
+智能眼镜领头羊，道出行业泡沫	https://news.qq.com/rain/a/20250725A03INI00
+字节、腾讯、阿里，AI 编码“三国杀”	['https://www.sohu.com/a/917575136_104421?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.3.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+亲叔叔又爆新瓜 宗馥莉扛得住？	https://news.qq.com/rain/a/20250719V00MHT00
+HBM芯片，要降价？	https://news.qq.com/rain/a/20250724A07ZXL00
+鸿蒙要“三分天下”，平板成关键战场：华为高端市场硬刚苹果	https://news.qq.com/rain/a/20250725A052AB00
+“多核驱动”，阿里巴巴正组成史上最强高管阵容	https://news.qq.com/rain/a/20250723A03JSJ00
+提前3个月内测！OPPO K13 Turbo Pro：我们做了啥？风扇有用么？	https://news.qq.com/rain/a/20250721V06EAR00
+消息称台积电在日第二晶圆厂延至 2029 上半年投运，推迟 18 个月	https://news.qq.com/rain/a/20250725A058KW00
+马斯克想有更多特斯拉控制权但不要太多，“万一哪天疯了还能被赶走”	https://news.qq.com/rain/a/20250724A055RG00
+自愿996者，涨薪25%、股权翻倍！这股风刮到了硅谷	https://news.qq.com/rain/a/20250724A08LQT00
+阿里发布最强开源编程大模型 阿里突然发布最新编程大模型Qwen3-Coder，在编程能力及Agent调用能力方面取得重大突破，多项基准测试全面超越GPT4.1、Gemini等闭源模型，比肩公认最强闭源编程模型Claude4，外网上各种测评几乎一面倒好评，这个事实上已经是全球最好编程模型的Qwen3-Coder到底有多强？	https://news.qq.com/rain/a/20250724V08EKH00
+BOSE QC Ultra II 真无线降噪耳机体验：音质有升级，降噪更安静更舒服	https://news.qq.com/rain/a/20250724A091U500
+苹果芯片，一路狂飙	https://news.qq.com/rain/a/20250723A02JJF00
+AI翻译的一大步｜字节Seed同声传译大模型发布	https://news.qq.com/rain/a/20250725A01YCN00
+超越Flux的二次元模型,以及这个被忽略的巨大市场	https://news.qq.com/rain/a/20250725V052FZ00
+没敲过代码的我，半小时「聊」出一个能用能分享的「小程序」	https://news.qq.com/rain/a/20250724A04HK200
+今年科技行业已有10万多人丢了饭碗，英特尔裁得最狠	https://news.qq.com/rain/a/20250724A0A0HI00
+什么值得买，还值得买吗？	https://news.qq.com/rain/a/20250724A038ND00
+2025八大充电宝快充实测！谁家虚标最厉害？	https://news.qq.com/rain/a/20250723V09YD400
+不怕被挖！谷歌晒IMO金牌团队大合照，还挨个圈出了联系方式	['https://www.sohu.com/a/917514430_610300?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.1.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+中国智能制造崛起：华为黑灯工厂，机器人主宰生产线，重塑未来职场	['https://www.sohu.com/a/917487799_362225?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.2.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+微软依然蒸蒸日上！微软CEO致信员工为裁员辩护	['https://www.sohu.com/a/917499371_258858?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.4.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+雷军：小米人工智能物联网开发平台未来 5 年预计培养5万多名学生	['https://www.sohu.com/a/917376117_114760?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.6.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+中国对全球AI大模型发展影响深远	['https://www.sohu.com/a/917478694_114911?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.7.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+腾讯音乐TME产品设计周启航，共探产品设计创新之旅	['https://www.sohu.com/a/917513177_120869996?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.8.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+谷歌CEO皮查伊笑对硅谷人才争夺战：顶尖工程师留下是出于使命感	['https://www.sohu.com/a/917200299_114760?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.9.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+前端低代码平台有哪些？知名平台优势大揭秘	['https://www.sohu.com/a/917568017_122312749?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.11.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+文化的数字化转型：博物馆小程序开发的未来！	['https://www.sohu.com/a/917553791_100277211?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.12.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+3600点遇阻！反内卷引爆互联网行业，板块个股出现集体井喷	['https://www.sohu.com/a/917480765_120089601?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.13.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+刚刚，OpenAI星际之门要建5GW数据中心，马斯克祭出AI基建5年计划	['https://www.sohu.com/a/916657526_129720?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.14.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+360集团创始人周鸿祎：所有行业都有机会被智能体重塑	['https://www.sohu.com/a/917490970_163278?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.16.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+99年华人科学家创业，掏出全球首个视觉记忆大模型，无限上下文，已获三星投资	['https://www.sohu.com/a/917448863_115978?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.17.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+阿里重磅推出Qwen3-Coder，代理编程能力再升级！	['https://www.sohu.com/a/917493524_362225?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.18.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+接入健康大模型，夸克想要通过优质内容获得更多用户	['https://www.sohu.com/a/917196775_313745?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.19.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+2025中国互联网大会开幕 “智能体”引热议	['https://www.sohu.com/a/916888738_123753?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.21.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+造福or替代程序员？实测阿里新模型	['https://www.sohu.com/a/916932578_115207?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.22.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+AI大模型管理平台：赋能政企智能化转型的核心引擎	['https://www.sohu.com/a/917491144_121825634?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.23.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+京东加码具身智能领域布局 众擎机器人获京东领投	['https://www.sohu.com/a/917136247_104421?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.24.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+众擎机器人融资近10亿：京东领投，宁德时代及黄浦江资本参投	['https://www.sohu.com/a/916595338_250147?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.26.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+数智海丝看泉州：当千年刺桐港乘上数字新浪潮	['https://www.sohu.com/a/916437685_115239?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.27.1753450302930VCQsSu7_1091', '2025-07-22', '搜狐网']
+京东，一天连投3家机器人公司	['https://www.sohu.com/a/916148835_121255906?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.28.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+连投三家机器人企业，京东回应	['https://www.sohu.com/a/915999877_114760?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.29.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+全中国最懂小红书的，是一群郑州的中年男人｜深氪	['https://www.sohu.com/a/915978500_114778?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.31.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+Perplexity AI获1亿美元新融资：半年估值激增40亿，将“硬刚”谷歌Chrome	['https://www.sohu.com/a/916098565_99900743?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.32.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+Meta超级AI团队名单曝光：50%来自中国，年薪或达1亿美元！	['https://www.sohu.com/a/915928544_128469?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.33.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+中国互联网络信息中心在京发布第56次《中国互联网络发展状况统计报告》	['https://www.sohu.com/a/916151627_121106854?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.34.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+大模型“下工厂” 智联网“上高速” 我国新型工业化向“新”而行“蹄疾步稳”	['https://www.sohu.com/a/915977145_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.36.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+千寻智能宣布完成近6亿融资：京东领投 顺为及中网投等跟投	['https://www.sohu.com/a/916107649_430392?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.37.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+京东，投资三家具身智能机器人企业！最新回应	['https://www.sohu.com/a/915985890_100023965?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.38.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+黄仁勋：和雷军合作已久，正共同开发人工智能、自动驾驶软件等	['https://www.sohu.com/a/915878856_115060?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.39.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+阿里云通义千问 Qwen3-Coder 宣布开源	['https://www.sohu.com/a/916612256_100106801?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.42.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+逐际动力获京东战略领投，以IDS生态协同加速具身智能技术落地	['https://www.sohu.com/a/915927765_118792?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.43.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+京东和美团，又在这一赛道“打”起来了！	['https://www.sohu.com/a/916177013_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.44.1753450302930VCQsSu7_1091', '2025-07-22', '搜狐网']
+华为新机器人“第一伙伴”亮相，哈勃参与6800亿产业链盛宴	['https://www.sohu.com/a/917485318_122014422?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.46.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+给未来AI的时间胶囊｜李璟：下一步大模型的发展在技术和产业上有两大趋势	['https://www.sohu.com/a/917367537_121286085?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.47.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+揭秘小红书“邪修”郑州帮：编辑10万人，日产笔记50万+	['https://www.sohu.com/a/917140343_108964?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.48.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+阿里，最新发布！	['https://www.sohu.com/a/916821052_639898?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.49.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+2025年世界互联网大会数字丝路发展论坛在福建泉州开幕	['https://www.sohu.com/a/917232863_123753?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.51.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+2025中国互联网大会，高灯科技带来“公共服务”新成果	['https://www.sohu.com/a/917480036_104421?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.52.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+Meta超级AGI团队曝光，50%是华人！	['https://www.sohu.com/a/917094317_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.53.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+K2大模型受国际关注 Kimi找到了适合自己的路	['https://www.sohu.com/a/917584351_114988?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.54.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+空间智能产业化加速 一线企业集体锚定百度智能云	['https://www.sohu.com/a/917577843_121384220?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.57.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+腾讯AI IDE发布！四大智能体，一站式搞定开发全流程	['https://www.sohu.com/a/916494152_115978?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.58.1753450302930VCQsSu7_1091', '2025-07-22', '搜狐网']
+SuperCLUE发工业大模型测评榜单 北电数智骄阳·工业大模型排第一	['https://www.sohu.com/a/917581144_117302?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.59.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+世界互联网大会数字丝路发展论坛在泉州举办，数字普惠成关切	['https://www.sohu.com/a/917215151_161795?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.61.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+苹果AI团队动荡内幕曝光：模型开源提案被否，或转用第三方大模型	['https://www.sohu.com/a/916551346_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.62.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+陈天桥：科创投资不要沿用互联网套路	['https://www.sohu.com/a/917569494_161795?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.63.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+从“互联网+”到“人工智能+”——数字经济迈向发展新阶段	['https://www.sohu.com/a/917573149_695881?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.64.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+众擎机器人连续完成Pre-A++与A1轮近10亿元融资，京东领投	['https://www.sohu.com/a/915933837_118792?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.66.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+微软中国首席技术官韦青：AI“无人区”探索，人的思想才是最重要的	['https://www.sohu.com/a/917563410_222256?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.67.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+服务行业数智化，共创AI新时代 华为中国政企用户峰会2025成功举办	['https://www.sohu.com/a/917523566_401503?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.68.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+中国成为微软必应全球第一大市场，这绝非偶然	['https://www.sohu.com/a/915953210_114822?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.69.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+千寻智能完成近6亿元PreA+轮融资，京东领投	['https://www.sohu.com/a/915898035_439726?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.71.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+硅基智能创始人司马华鹏出席2025互联网大会	['https://www.sohu.com/a/917474815_122406336?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.72.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+上海交大校长带队访问华为：合力为国家关键领域做贡献	['https://www.sohu.com/a/916465947_115479?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.73.1753450302930VCQsSu7_1091', '2025-07-22', '搜狐网']
+新民述评｜版权质押，看见互联网优质生产力	['https://www.sohu.com/a/916062022_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.74.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+周鸿祎亲授“开挂”学习法：千万别死磕基础	['https://www.sohu.com/a/917058156_163726?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.76.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+2025年世界互联网大会数字丝路发展论坛在泉州开幕	['https://www.sohu.com/a/917447706_255783?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.77.1753450302930VCQsSu7_1091', '2025-07-25', '搜狐网']
+快手高级副总裁马宏彬：数字经济正在成为全球南方的新纽带	['https://www.sohu.com/a/915913911_118081?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.78.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+马斯克承认曾抵制人工智能，如今全力投入	['https://www.sohu.com/a/915819858_211762?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.79.1753450302930VCQsSu7_1091', '2025-07-20', '搜狐网']
+第24届中国互联网大会在京开幕，一场关于“数智”的思维盛宴	['https://www.sohu.com/a/917128471_105067?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.81.1753450302930VCQsSu7_1091', '2025-07-24', '搜狐网']
+2025中国互联网大会开幕，以“数驱新质 智创未来”为主题	['https://www.sohu.com/a/916857703_260616?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.82.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+人工智能首次进入热门专业前十 QQ浏览器25高考季数据报告发布	['https://www.sohu.com/a/916460205_362042?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.83.1753450302930VCQsSu7_1091', '2025-07-22', '搜狐网']
+阿里开源最强AI编程模型Qwen3-Coder，性能比肩Claude4 | 钛快讯	['https://www.sohu.com/a/916610340_116132?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.84.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+一日连投三家机器人企业 京东回应	['https://www.sohu.com/a/916019996_99900743?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.86.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+众擎机器人获近10亿元Pre-A++轮和A1轮融资，小鹏汽车和京东投资	['https://www.sohu.com/a/915948117_439726?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.87.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+对话周鸿祎：DeepSeek流量确实在下降，他们就没花心思做，梁文锋是有梦想的人	['https://www.sohu.com/a/916808390_115565?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.88.1753450302930VCQsSu7_1091', '2025-07-23', '搜狐网']
+京东战略领投，逐际动力获新一轮融资	['https://www.sohu.com/a/915932554_115060?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.89.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+逐际动力获京东战略领投，全尺寸人形机器人下半年公开销售	['https://www.sohu.com/a/915933019_100106801?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.91.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']
+逐际动力获新一轮融资，京东战略领投	['https://www.sohu.com/a/915896598_439726?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.92.1753450302930VCQsSu7_1091', '2025-07-21', '搜狐网']

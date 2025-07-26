@@ -24,7 +24,7 @@ for title, sim in filtered_titles:
     print(f"{title}（相似度：{sim:.2f}）")
 
 # 写入到新文件（只保留标题）
-with open('filter/ai_titles_v1.txt', 'w', encoding='utf-8') as f:
+with open('filter/init_filter/ai_titles_v1.txt', 'w', encoding='utf-8') as f:
     for title, sim in filtered_titles:
         f.write(f"{title}\n")
 print("筛选后的AI相关标题已写入") 
