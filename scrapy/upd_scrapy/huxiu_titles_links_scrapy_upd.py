@@ -6,6 +6,7 @@ import json
 from datetime import datetime, timedelta
 import re
 import os
+import sqlite3
 
 def parse_time_str(time_str):
     now = datetime.now()
@@ -39,21 +40,30 @@ def parse_time_str(time_str):
     return ''
 
 def load_existing_titles():
-    """加载现有的标题列表"""
+    """从数据库加载现有的标题列表"""
     existing_titles = set()
-    titles_file = 'scrapy/huxiu_data/huxiu_titles.txt'
-    if os.path.exists(titles_file):
-        with open(titles_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                title = line.strip()
-                if title:
-                    existing_titles.add(title)
-        print(f"已加载 {len(existing_titles)} 个现有标题")
-    else:
-        print("未找到现有标题文件，将创建新文件")
+    try:
+        # 连接数据库
+        conn = sqlite3.connect('database/title_link.db')
+        cursor = conn.cursor()
+        
+        # 查询所有标题
+        cursor.execute('SELECT title FROM title_link')
+        rows = cursor.fetchall()
+        
+        for row in rows:
+            title = row[0].strip()
+            if title:
+                existing_titles.add(title)
+        
+        conn.close()
+        print(f"从数据库加载了 {len(existing_titles)} 个现有标题")
+    except Exception as e:
+        print(f"从数据库加载标题失败: {e}")
+        print("无法从数据库加载标题，将创建空的标题集合")
     return existing_titles
 
-def fetch_huxiu_titles_update(existing_titles, max_scrolls=10, wait_time=1):
+def fetch_huxiu_titles_update(existing_titles, max_scrolls=30, wait_time=1):
     """增量更新虎嗅网标题，遇到重复标题时停止"""
     new_titles = []
     new_title_link_dict = {}
@@ -122,7 +132,7 @@ if __name__ == "__main__":
     existing_titles = load_existing_titles()
     
     # 增量爬取新标题
-    new_titles, new_title_link_dict = fetch_huxiu_titles_update(existing_titles, max_scrolls=10, wait_time=1)
+    new_titles, new_title_link_dict = fetch_huxiu_titles_update(existing_titles, max_scrolls=30, wait_time=1)
     
     print(f"本次更新共抓取到{len(new_titles)}个新标题")
     

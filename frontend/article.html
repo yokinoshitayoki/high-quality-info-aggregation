@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>文章详情 - JackleeのAI资讯聚合平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: 'Segoe UI', 'PingFang SC', Arial, sans-serif; 
+            background: #f6f8fa; 
+            margin: 0; 
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px #0001;
+            padding: 32px 24px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .art-title {
+            text-align: center;
+            font-size: 2.8em;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 0.08em;
+            color: #a259ff;
+            font-family: 'Segoe UI', 'PingFang SC', Arial, sans-serif;
+            margin-bottom: 18px;
+            background: linear-gradient(90deg, #a259ff 20%, #6c2eb7 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .back-btn {
+            position: absolute;
+            left: 24px;
+            top: 24px;
+            padding: 8px 16px;
+            background: #0057ff;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        .back-btn:hover {
+            background: #003fa3;
+        }
+        .article-header {
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .article-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #222;
+            line-height: 1.4;
+            margin-bottom: 16px;
+        }
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            color: #666;
+            font-size: 14px;
+            align-items: center;
+        }
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .source-link {
+            color: #0057ff;
+            text-decoration: none;
+            padding: 4px 8px;
+            border: 1px solid #0057ff;
+            border-radius: 4px;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+        .source-link:hover {
+            background: #0057ff;
+            color: #fff;
+        }
+        .article-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+        }
+        .article-content p {
+            margin-bottom: 16px;
+            text-indent: 2em;
+        }
+        .article-content h1, .article-content h2, .article-content h3 {
+            margin: 24px 0 16px 0;
+            color: #222;
+            font-weight: bold;
+        }
+        .article-content h1 {
+            font-size: 24px;
+        }
+        .article-content h2 {
+            font-size: 20px;
+        }
+        .article-content h3 {
+            font-size: 18px;
+        }
+        .article-content ul, .article-content ol {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        .article-content li {
+            margin-bottom: 8px;
+        }
+        .article-content blockquote {
+            margin: 16px 0;
+            padding: 16px 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #0057ff;
+            font-style: italic;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            font-size: 16px;
+        }
+        .error {
+            text-align: center;
+            padding: 60px 20px;
+            color: #dc3545;
+            font-size: 16px;
+        }
+        .no-content {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-size: 16px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 20px 16px;
+            }
+            .article-title {
+                font-size: 24px;
+            }
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            .back-btn {
+                position: static;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-btn">← 返回首页</a>
+        
+        <div class="header">
+            <h1 class="art-title">JackleeのAI资讯聚合平台</h1>
+        </div>
+        
+        <div id="articleContainer">
+            <div class="loading">正在加载文章内容...</div>
+        </div>
+    </div>
+
+    <script>
+        // 获取URL参数中的文章ID
+        function getArticleId() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('id');
+        }
+
+        // 格式化日期
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            try {
+                const date = new Date(dateStr);
+                return date.toLocaleDateString('zh-CN', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            } catch (e) {
+                return dateStr;
+            }
+        }
+
+        // 格式化文章内容
+        function formatContent(content) {
+            if (!content) return '';
+            
+            // 将换行符转换为段落
+            let formatted = content
+                .replace(/\n\n+/g, '</p><p>')  // 多个换行符转换为段落分隔
+                .replace(/\n/g, '<br>');       // 单个换行符转换为<br>
+            
+            // 包装在段落标签中
+            if (!formatted.startsWith('<p>')) {
+                formatted = '<p>' + formatted + '</p>';
+            }
+            
+            return formatted;
+        }
+
+        // 加载文章详情
+        async function loadArticle() {
+            const articleId = getArticleId();
+            if (!articleId) {
+                showError('缺少文章ID参数');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/article/${articleId}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    renderArticle(data.article);
+                } else {
+                    showError(data.error || '加载文章失败');
+                }
+            } catch (error) {
+                showError('网络错误，请稍后重试');
+                console.error('Error:', error);
+            }
+        }
+
+        // 渲染文章内容
+        function renderArticle(article) {
+            const container = document.getElementById('articleContainer');
+            
+            const html = `
+                <div class="article-header">
+                    <h1 class="article-title">${article.title}</h1>
+                    <div class="article-meta">
+                        <div class="meta-item">
+                            <span>📅</span>
+                            <span>${formatDate(article.date)}</span>
+                        </div>
+                        <div class="meta-item">
+                            <span>🏢</span>
+                            <span>${article.source || '未知来源'}</span>
+                        </div>
+                        <div class="meta-item">
+                            <span>🔗</span>
+                            <a href="${article.link}" target="_blank" class="source-link">查看原文</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-content">
+                    ${article.content ? formatContent(article.content) : '<div class="no-content">暂无文章内容</div>'}
+                </div>
+            `;
+            
+            container.innerHTML = html;
+            
+            // 更新页面标题
+            document.title = `${article.title} - JackleeのAI资讯聚合平台`;
+        }
+
+        // 显示错误信息
+        function showError(message) {
+            const container = document.getElementById('articleContainer');
+            container.innerHTML = `<div class="error">${message}</div>`;
+        }
+
+        // 页面加载时获取文章详情
+        document.addEventListener('DOMContentLoaded', loadArticle);
+    </script>
+</body>
+</html> 

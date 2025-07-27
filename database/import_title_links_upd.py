@@ -37,9 +37,18 @@ def import_title_links_upd():
             title TEXT,
             link TEXT,
             date TEXT,
-            source TEXT
+            source TEXT,
+            content TEXT
         )
     ''')
+    
+    # 检查content列是否存在，如果不存在则添加
+    try:
+        c.execute('SELECT content FROM title_link LIMIT 1')
+    except sqlite3.OperationalError:
+        print("添加content列...")
+        c.execute('ALTER TABLE title_link ADD COLUMN content TEXT')
+        conn.commit()
 
     # 获取现有标题，避免重复插入
     c.execute('SELECT title FROM title_link')
@@ -63,8 +72,8 @@ def import_title_links_upd():
         source = info[2] if len(info) > 2 else ''
         
         try:
-            c.execute('INSERT INTO title_link (title, link, date, source) VALUES (?, ?, ?, ?)', 
-                     (title, link, date, source))
+            c.execute('INSERT INTO title_link (title, link, date, source, content) VALUES (?, ?, ?, ?, ?)', 
+                     (title, link, date, source, ''))
             inserted_count += 1
             print(f"插入: {title} ({date})")
         except Exception as e:

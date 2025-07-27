@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>AI资讯聚合平台</title>
+    <title>JackleeのAI资讯聚合平台</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { font-family: 'Segoe UI', 'PingFang SC', Arial, sans-serif; background: #f6f8fa; margin: 0; }
@@ -34,16 +34,207 @@
             gap: 8px;
             position: relative; /* 关键：为绝对定位的子元素提供参照 */
             min-height: 90px;   /* 适当增加高度，避免内容重叠 */
+            padding-bottom: 40px; /* 为摘要按钮留出空间 */
+            transition: all 0.3s ease; /* 平滑过渡效果 */
+        }
+        
+        .summary-btn {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            width: 24px;
+            height: 24px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            opacity: 0.8;
+            z-index: 2;
+        }
+        
+        .summary-btn:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        .summary-btn.loading {
+            background: #ffc107;
+            animation: spin 1s linear infinite;
+        }
+        
+        .summary-content {
+            background: #e8f5e8;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #2c5530;
+            border-left: 3px solid #28a745;
+            display: none;
+            position: relative;
+            z-index: 1;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        
+        .summary-content.show {
+            display: block;
+        }
+        
+        /* 关闭摘要按钮 */
+        .close-summary-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 16px;
+            height: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            opacity: 0.8;
+            z-index: 3;
+        }
+        
+        .close-summary-btn:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        /* 当摘要显示时，调整新闻卡片的布局 */
+        .news-card.with-summary {
+            padding-bottom: 60px; /* 为摘要内容留出更多空间 */
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .feedback-btn {
+            position: absolute;
+            bottom: 8px;
+            right: 36px;
+            width: 24px;
+            height: 24px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            opacity: 0.8;
+        }
+        
+        .feedback-btn:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        .feedback-tooltip {
+            position: absolute;
+            bottom: 30px;
+            right: 0;
+            background: #333;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s;
+        }
+        
+        .feedback-btn:hover .feedback-tooltip {
+            opacity: 1;
+        }
+        
+        .feedback-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .feedback-modal.show {
+            display: flex;
+        }
+        
+        .feedback-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        .feedback-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .feedback-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .feedback-option {
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        
+        .feedback-option:hover {
+            border-color: #0057ff;
+            background: #f8f9ff;
+        }
+        
+        .feedback-option.selected {
+            border-color: #0057ff;
+            background: #0057ff;
+            color: white;
         }
         .news-title { font-size: 18px; font-weight: 600; color: #0057ff; text-decoration: none; line-height: 1.4; }
         .news-title:hover { text-decoration: underline; }
         .news-meta {
             color: #888;
             font-size: 13px;
-            position: absolute;
-            left: 16px;
-            bottom: 10px;
-            /* 保证不会和分页按钮重叠 */
+            margin-top: 4px;
+            margin-bottom: 8px;
+            /* 使用相对定位，避免遮挡问题 */
         }
         .pagination { display: flex; justify-content: center; align-items: center; gap: 12px; margin: 32px 0 0 0; }
         .pagination button { padding: 6px 16px; border: none; border-radius: 5px; background: #eee; color: #333; font-size: 15px; cursor: pointer; }
@@ -110,6 +301,19 @@
         <div class="news-list" id="newsList"></div>
         <div class="pagination" id="pagination"></div>
     </div>
+    
+    <!-- 反馈模态框 -->
+    <div class="feedback-modal" id="feedbackModal">
+        <div class="feedback-content">
+            <div class="feedback-title">请给出反馈以帮助AI以后为您更好地筛选内容</div>
+            <div class="feedback-options">
+                <div class="feedback-option" data-type="这个新闻与AI无关">这个新闻与AI无关</div>
+                <div class="feedback-option" data-type="标题过于浮夸">标题过于浮夸</div>
+                <div class="feedback-option" data-type="实际内容质量低">实际内容质量低</div>
+                <div class="feedback-option" data-type="无理由">无理由</div>
+            </div>
+        </div>
+    </div>
     <script>
         let page = 1, size = 20, total = 0, lastUpdate = '';
         let currentQuery = '';
@@ -142,9 +346,21 @@
                 const card = document.createElement('div');
                 card.className = 'news-card';
                 card.innerHTML = `
-                    <a class="news-title" href="${item.link || item.original_url}" target="_blank">${item.title}</a>
+                    <button class="feedback-btn" onclick="openFeedback('${item.title.replace(/'/g, "\\'")}')" title="不可接受">
+                        <span>👎</span>
+                        <div class="feedback-tooltip">不可接受</div>
+                    </button>
+                    <button class="summary-btn" onclick="generateSummary(${item.id}, '${item.title.replace(/'/g, "\\'")}', this)" title="生成摘要">
+                        <span>📝</span>
+                    </button>
+                    <a class="news-title" href="/article?id=${item.id}" target="_blank">${item.title}</a>
                     <div class="news-meta">
                         ${item.source ? item.source.trim() : ''}${item.date ? ' | ' + item.date : ''}
+                    </div>
+                    <div class="summary-content" id="summary-${item.id}">
+                        <button class="close-summary-btn" onclick="closeSummary(${item.id})" title="关闭摘要" style="display: none;">
+                            <span>×</span>
+                        </button>
                     </div>
                 `;
                 list.appendChild(card);
@@ -232,27 +448,41 @@
                 fetch('/api/update_status')
                     .then(r => r.json())
                     .then(data => {
-                        if (data.status === 'running') {
+                        // 更新按钮文本显示当前状态
+                        if (data.status === 'crawling') {
+                            btn.innerText = '爬取数据中...';
+                            showMessage(data.msg, 'info');
+                        } else if (data.status === 'crawling_articles') {
+                            btn.innerText = '爬取文章内容中...';
+                            showMessage(data.msg, 'info');
+                        } else if (data.status === 'analyzing') {
+                            btn.innerText = 'AI分析中...';
+                            showMessage(data.msg, 'info');
+                        } else if (data.status === 'importing') {
+                            btn.innerText = '导入数据库中...';
+                            showMessage(data.msg, 'info');
+                        } else if (data.status === 'running') {
+                            btn.innerText = '正在更新...';
                             // 继续轮询
                             return;
-                        }
-                        
-                        // 停止轮询
-                        clearInterval(statusInterval);
-                        btn.disabled = false;
-                        btn.innerText = '⟳ 更新';
-                        
-                        // 根据状态显示不同消息
-                        if (data.status === 'success') {
-                            document.getElementById('updateInfo').innerText = '上次更新：' + (new Date()).toLocaleString();
-                            fetchNews(1, currentQuery);
-                            showMessage(data.msg, 'success');
-                        } else if (data.status === 'already_latest') {
-                            showMessage(data.msg, 'info');
-                        } else if (data.status === 'failed') {
-                            showMessage(data.msg, 'error');
                         } else {
-                            showMessage(data.msg, 'warning');
+                            // 停止轮询
+                            clearInterval(statusInterval);
+                            btn.disabled = false;
+                            btn.innerText = '⟳ 更新';
+                            
+                            // 根据状态显示不同消息
+                            if (data.status === 'success') {
+                                document.getElementById('updateInfo').innerText = '上次更新：' + (new Date()).toLocaleString();
+                                fetchNews(1, currentQuery);
+                                showMessage(data.msg, 'success');
+                            } else if (data.status === 'already_latest') {
+                                showMessage(data.msg, 'info');
+                            } else if (data.status === 'failed') {
+                                showMessage(data.msg, 'error');
+                            } else {
+                                showMessage(data.msg, 'warning');
+                            }
                         }
                     })
                     .catch(() => {
@@ -328,6 +558,241 @@
             fetchNews(1, currentQuery, order);
         }
 
+        // 反馈相关变量
+        let currentFeedbackTitle = '';
+        
+        // 打开反馈模态框
+        function openFeedback(title) {
+            currentFeedbackTitle = title;
+            document.getElementById('feedbackModal').classList.add('show');
+            
+            // 重置选项状态
+            document.querySelectorAll('.feedback-option').forEach(option => {
+                option.classList.remove('selected');
+            });
+        }
+        
+        // 关闭反馈模态框
+        function closeFeedback() {
+            document.getElementById('feedbackModal').classList.remove('show');
+            currentFeedbackTitle = '';
+        }
+        
+        // 选择反馈选项
+        function selectFeedbackOption(element) {
+            // 移除其他选项的选中状态
+            document.querySelectorAll('.feedback-option').forEach(option => {
+                option.classList.remove('selected');
+            });
+            
+            // 选中当前选项
+            element.classList.add('selected');
+        }
+        
+        // 提交反馈
+        function submitFeedback() {
+            const selectedOption = document.querySelector('.feedback-option.selected');
+            if (!selectedOption) {
+                alert('请选择一个反馈选项');
+                return;
+            }
+            
+            const feedbackType = selectedOption.getAttribute('data-type');
+            
+            fetch('/api/feedback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    title: currentFeedbackTitle,
+                    feedback_type: feedbackType
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showMessage('反馈提交成功！', 'success');
+                    closeFeedback();
+                } else {
+                    showMessage('反馈提交失败：' + data.error, 'error');
+                }
+            })
+            .catch(error => {
+                showMessage('网络错误，请稍后重试', 'error');
+            });
+        }
+        
+        // 绑定反馈选项点击事件
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.feedback-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    selectFeedbackOption(this);
+                });
+            });
+            
+            // 点击模态框外部关闭
+            document.getElementById('feedbackModal').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeFeedback();
+                }
+            });
+            
+            // 添加提交按钮到模态框
+            const feedbackContent = document.querySelector('.feedback-content');
+            const submitBtn = document.createElement('button');
+            submitBtn.textContent = '提交反馈';
+            submitBtn.style.cssText = `
+                margin-top: 20px;
+                padding: 10px 20px;
+                background: #0057ff;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 14px;
+            `;
+            submitBtn.onclick = submitFeedback;
+            feedbackContent.appendChild(submitBtn);
+        });
+        
+        // 生成摘要函数
+        function generateSummary(articleId, title, button) {
+            // 防止重复点击
+            if (button.classList.contains('loading')) {
+                return;
+            }
+            
+            const summaryContent = document.getElementById(`summary-${articleId}`);
+            
+            // 显示加载状态
+            button.classList.add('loading');
+            button.innerHTML = '<span>⏳</span>';
+            summaryContent.innerHTML = '';
+            summaryContent.classList.remove('show');
+            
+            // 移除新闻卡片的摘要样式
+            const newsCard = summaryContent.closest('.news-card');
+            if (newsCard) {
+                newsCard.classList.remove('with-summary');
+            }
+            
+            // 发送流式请求
+            fetch('/api/summary/stream', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    article_id: articleId,
+                    title: title
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('网络请求失败');
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let summary = '';
+                
+                function readStream() {
+                    return reader.read().then(({ done, value }) => {
+                        if (done) {
+                            // 完成
+                            button.classList.remove('loading');
+                            button.innerHTML = '<span>📝</span>';
+                            return;
+                        }
+                        
+                        const chunk = decoder.decode(value);
+                        const lines = chunk.split('\n');
+                        
+                        for (const line of lines) {
+                            if (line.startsWith('data: ')) {
+                                try {
+                                    const data = JSON.parse(line.slice(6));
+                                    
+                                    if (data.type === 'content') {
+                                        summary += data.content;
+                                        // 更新摘要内容，保留关闭按钮
+                                        const closeBtn = summaryContent.querySelector('.close-summary-btn');
+                                        summaryContent.innerHTML = `
+                                            <button class="close-summary-btn" onclick="closeSummary(${articleId})" title="关闭摘要">
+                                                <span>×</span>
+                                            </button>
+                                            <div style="margin-top: 20px;">${summary}</div>
+                                        `;
+                                        summaryContent.classList.add('show');
+                                        // 调整新闻卡片布局
+                                        const newsCard = summaryContent.closest('.news-card');
+                                        if (newsCard) {
+                                            newsCard.classList.add('with-summary');
+                                        }
+                                    } else if (data.type === 'error') {
+                                        summaryContent.innerHTML = `
+                                            <button class="close-summary-btn" onclick="closeSummary(${articleId})" title="关闭摘要">
+                                                <span>×</span>
+                                            </button>
+                                            <div style="margin-top: 20px; color: #dc3545;">生成失败: ${data.error}</div>
+                                        `;
+                                        summaryContent.classList.add('show');
+                                        button.classList.remove('loading');
+                                        button.innerHTML = '<span>📝</span>';
+                                        return;
+                                    } else if (data.type === 'done') {
+                                        button.classList.remove('loading');
+                                        button.innerHTML = '<span>📝</span>';
+                                        return;
+                                    }
+                                } catch (e) {
+                                    console.error('解析流数据失败:', e);
+                                }
+                            }
+                        }
+                        
+                        // 继续读取
+                        return readStream();
+                    });
+                }
+                
+                return readStream();
+            })
+            .catch(error => {
+                console.error('生成摘要失败:', error);
+                summaryContent.innerHTML = `
+                    <button class="close-summary-btn" onclick="closeSummary(${articleId})" title="关闭摘要">
+                        <span>×</span>
+                    </button>
+                    <div style="margin-top: 20px; color: #dc3545;">生成摘要失败，请稍后重试</div>
+                `;
+                summaryContent.classList.add('show');
+                button.classList.remove('loading');
+                button.innerHTML = '<span>📝</span>';
+            });
+        }
+        
+        // 关闭摘要函数
+        function closeSummary(articleId) {
+            const summaryContent = document.getElementById(`summary-${articleId}`);
+            const closeBtn = summaryContent.querySelector('.close-summary-btn');
+            const newsCard = summaryContent.closest('.news-card');
+            
+            // 隐藏摘要内容和关闭按钮
+            summaryContent.classList.remove('show');
+            summaryContent.innerHTML = `
+                <button class="close-summary-btn" onclick="closeSummary(${articleId})" title="关闭摘要" style="display: none;">
+                    <span>×</span>
+                </button>
+            `;
+            
+            // 移除新闻卡片的摘要样式
+            if (newsCard) {
+                newsCard.classList.remove('with-summary');
+            }
+        }
+        
         // 首次加载
         fetchNews(1, '', order);
         // v1新增：监听搜索框回车事件

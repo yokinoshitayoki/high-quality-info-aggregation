@@ -41,7 +41,7 @@ def fetch_huxiu_titles_selenium_scroll(max_scrolls=10, wait_time=1):
     titles = set()
     title_link_dict = {}
     chrome_options = Options()
-    chrome_options.add_argument('--headless')
+    #chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument(
         'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'

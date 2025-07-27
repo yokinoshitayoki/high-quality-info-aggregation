@@ -40,7 +40,8 @@ def import_title_links():
             title TEXT,
             link TEXT,
             date TEXT,
-            source TEXT
+            source TEXT,
+            content TEXT
         )
     ''')
 
@@ -54,8 +55,8 @@ def import_title_links():
         source = info[2] if len(info) > 2 else ''
         
         try:
-            c.execute('INSERT INTO title_link (title, link, date, source) VALUES (?, ?, ?, ?)', 
-                     (title, link, date, source))
+            c.execute('INSERT INTO title_link (title, link, date, source, content) VALUES (?, ?, ?, ?, ?)', 
+                     (title, link, date, source, ''))
             inserted_count += 1
             print(f"插入: {title} ({date})")
         except Exception as e:
