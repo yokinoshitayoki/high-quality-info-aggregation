@@ -346,7 +346,7 @@ def is_acceptable(title):
 ## 联系方式
 
 - 项目主页：[GitHub Repository](https://github.com/your-username/high-quality-info-aggregation)
-- 电子邮箱：[b1520448594@gmail.com]
+- 电子邮箱：b1520448594@gmail.com
 
 ---
 
