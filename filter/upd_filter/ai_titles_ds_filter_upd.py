@@ -3,12 +3,17 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import json
 import random
+import sys
+
+# 添加项目根目录到Python路径
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
+# 从config文件获取API密钥
+from backend.config import DEEPSEEK_API_KEY, DEEPSEEK_API_URL
 
 # 设置DeepSeek API Key
-openai.api_key = os.getenv("OPENAI_API_KEY")
-if openai.api_key is None:
-    raise ValueError("环境变量 OPENAI_API_KEY 未设置，请检查。")
-openai.base_url = "https://api.deepseek.com"
+openai.api_key = DEEPSEEK_API_KEY
+openai.base_url = DEEPSEEK_API_URL
 
 def load_feedback_prompts():
     """加载反馈数据作为prompt"""
@@ -88,10 +93,11 @@ def is_acceptable(title):
         system_prompt += "\n\n请参考这些反馈来改进筛选标准。"
     
     user_prompt = (
-        f"请判断以下标题是否浮夸或言之无物：‘{title}’。\n"
+        f"请判断以下标题是否浮夸或娱乐性太强：‘{title}’。\n"
         "如果是，返回0，否则返回1。\n"
         "如果该标题与AI无关，也返回0。\n"
-        "请注意不要返回其它任何值。"
+        "例如：“当DeepSeek都认为“DeepSeek向王一博道歉”了” 提到了DeepSeek,所以它与AI相关，"
+        "但是它提到了向王一博道歉，所以它娱乐性太强，所以返回应该为0。\n"
     )
     
     messages = [{"role": "system", "content": system_prompt}]
