@@ -84,9 +84,9 @@ pip install flask flask-cors requests beautifulsoup4 selenium sqlite3
 ```
 
 3. **配置API密钥**
-编辑 `backend/config.py` 文件：
-```python
-DEEPSEEK_API_KEY = "your_deepseek_api_key_here"
+创建一个.env 文件（和你的 Python 脚本在同一目录）然后输入：
+```powershell
+OPENAI_API_KEY=你的实际API密钥
 ```
 
 4. **初始化数据库**
