@@ -2,7 +2,7 @@
 
 一个基于AI驱动的高质量信息聚合与过滤系统，能够自动爬取、筛选和展示AI相关新闻资讯。
 
-## 🌟 项目特色
+## 项目特色
 
 - **🤖 AI智能筛选** - 使用DeepSeek Chat API进行内容质量评估
 - **📊 用户反馈系统** - 支持用户反馈，持续优化筛选算法
@@ -11,7 +11,7 @@
 - **📱 响应式设计** - 适配各种设备屏幕
 - **💾 数据备份** - 完善的数据备份和还原机制
 
-## 📋 功能特性
+## 功能特性
 
 ### 核心功能
 - **多源爬取** - 支持虎嗅网、腾讯网、搜狐网等主流科技媒体
@@ -29,7 +29,7 @@
 - **数据持久化** - SQLite数据库存储，支持增量更新
 - **模块化设计** - 清晰的代码架构，易于维护和扩展
 
-## 🏗️ 系统架构
+## 系统架构
 
 ```
 AI资讯聚合系统/
@@ -63,7 +63,7 @@ AI资讯聚合系统/
 └── clear_upd_files.py      # 清理脚本
 ```
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 
@@ -103,7 +103,7 @@ python backend/app.py
 6. **访问系统**
 打开浏览器访问：`http://localhost:5000`
 
-## 📖 使用指南
+## 使用指南
 
 ### 基本操作
 
@@ -181,7 +181,7 @@ CREATE TABLE title_link (
 );
 ```
 
-## 📊 数据流程
+## 数据流程
 
 ### 1. 数据爬取
 ```
@@ -208,7 +208,7 @@ CREATE TABLE title_link (
 用户操作 → 反馈收集 → AI权重调整
 ```
 
-## 🔄 备份还原
+## 备份还原
 
 ### 数据备份
 ```bash
@@ -227,7 +227,7 @@ python restore_from_backup_v1.py
 - 数据库文件
 - 用户反馈数据
 
-## 🛠️ 开发指南
+## 开发指南
 
 ### 添加新的数据源
 
@@ -271,7 +271,7 @@ def is_acceptable(title):
     return result
 ```
 
-## 🐛 故障排除
+## 故障排除
 
 ### 常见问题
 
@@ -303,7 +303,7 @@ def is_acceptable(title):
 - 数据库操作记录
 - 错误信息详情
 
-## 📈 性能优化
+## 性能优化
 
 ### 爬虫优化
 - 使用多线程并行爬取
@@ -320,7 +320,7 @@ def is_acceptable(title):
 - 分页加载减少内存占用
 - 缓存静态资源
 
-## 🤝 贡献指南
+## 贡献指南
 
 1. Fork 项目
 2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
@@ -328,22 +328,22 @@ def is_acceptable(title):
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 打开 Pull Request
 
-## 📄 许可证
+## 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
-## 👨‍💻 作者
+## 作者
 
 **Jacklee** - *AI资讯聚合平台*
 
-## 🙏 致谢
+## 致谢
 
 - [DeepSeek](https://www.deepseek.com/) - 提供AI API服务
 - [Flask](https://flask.palletsprojects.com/) - Web框架
 - [Selenium](https://selenium-python.readthedocs.io/) - 自动化测试工具
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - HTML解析库
 
-## 📞 联系方式
+## 联系方式
 
 - 项目主页：[GitHub Repository](https://github.com/your-username/high-quality-info-aggregation)
 - 问题反馈：[Issues](https://github.com/your-username/high-quality-info-aggregation/issues)
