@@ -7,8 +7,7 @@
 - **AI智能筛选** - 使用DeepSeek Chat API进行内容质量评估
 - **用户反馈系统** - 支持用户反馈，持续优化筛选算法
 - **AI摘要生成** - 实时生成文章摘要，支持流式显示
-- **自动更新** - 支持定时爬取最新资讯
-- **响应式设计** - 适配各种设备屏幕
+- **手动更新** - 支持手动爬取最新资讯
 - **数据备份** - 完善的数据备份和还原机制
 - **现代化界面** - 简洁美观的用户界面设计
 - **实时交互** - 流畅的用户交互体验
@@ -181,7 +180,7 @@ pip install flask flask-cors requests beautifulsoup4 selenium sqlite3
 3. **配置API密钥**
 - 创建一个.env 文件（和你的 Python 脚本在同一目录）
 
-![.env 文件位置](./images/env_set.png)
+&nbsp;![.env 文件位置](./images/env_set.png)
 - 然后输入：
 ```powershell
 OPENAI_API_KEY=你的实际API密钥
