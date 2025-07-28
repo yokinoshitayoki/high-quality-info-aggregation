@@ -180,7 +180,7 @@ pip install flask flask-cors requests beautifulsoup4 selenium sqlite3
 
 3. **配置API密钥**
 创建一个.env 文件（和你的 Python 脚本在同一目录）
-(./images/env_set.png)
+![.env 文件位置](./images/env_set.png)
 然后输入：
 ```powershell
 OPENAI_API_KEY=你的实际API密钥
