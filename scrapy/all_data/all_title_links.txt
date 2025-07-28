@@ -284,7 +284,7 @@ BOSE QC Ultra II 真无线降噪耳机体验：音质有升级，降噪更安静
 摩尔线程“AI工厂”：以系统级创新定义新一代AI基础设施	https://news.qq.com/rain/a/20250725A09FAV00
 董宇辉，归来仍是文化人？	https://news.qq.com/rain/a/20250723A07EY700
 智元VS宇树，两条路线，谁能成为具身智能第一股？	https://news.qq.com/rain/a/20250725V087SF00
-不怕被挖！谷歌晒IMO金牌团队大合照，还挨个圈出了联系方式	https://www.sohu.com/a/917514430_610300?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.1.1753450302930VCQsSu7_1091
+不怕被挖！谷歌晒IMO金牌团队大合照，还挨个圈出了联系方式	https://www.sohu.com/a/917514430_610300?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.7.1753682610071nBgzP0H_1091
 中国智能制造崛起：华为黑灯工厂，机器人主宰生产线，重塑未来职场	https://www.sohu.com/a/917487799_362225?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.2.1753450302930VCQsSu7_1091
 微软依然蒸蒸日上！微软CEO致信员工为裁员辩护	https://www.sohu.com/a/917499371_258858?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.4.1753450302930VCQsSu7_1091
 雷军：小米人工智能物联网开发平台未来 5 年预计培养5万多名学生	https://www.sohu.com/a/917376117_114760?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.6.1753450302930VCQsSu7_1091
@@ -392,3 +392,19 @@ WAIC2025亮点纷呈：人形机器人竞技，AI大模型应用爆发，智能�
 百度三大AI核心技术产品入选国家人工智能产业创新成果展	https://www.sohu.com/a/917888151_120388781?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.11.1753620132932Aj2WfMd_1091
 【WAIC2025】MiniMax创始人闫俊杰：AI公司不是重新复制一个互联网公司	https://www.sohu.com/a/917797280_118622?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.12.1753620132932Aj2WfMd_1091
 【WAIC2025】阶跃星辰发布基座大模型Step 3 与多家国产芯片厂商实现联合开发	https://www.sohu.com/a/917796901_118622?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.13.1753620132932Aj2WfMd_1091
+原创 “不信邪”的年轻人正在成为“淘金者”	https://www.huxiu.com/article/4627632.html
+微软为了AI，买了17亿美金的屎	https://news.qq.com/rain/a/20250728A02HOA00
+在史上最大规模WAIC中寻找DeepSeek	https://www.huxiu.com/article/4627004.html
+原创 黄仁勋中国叙事下的新机会	https://www.huxiu.com/article/4612800.html
+连续光变技术来了！小米16U曝重磅信息，手机影像又要革命？	https://news.qq.com/rain/a/20250728A0448P00
+华为 Pura 80直屏旗舰快速开箱&颜值对比 外观有哪些细节？颜值是否能打？	https://news.qq.com/rain/a/20250727V06YGJ00
+比短剧还暴利！团播正在沦为“电子宠物”	https://news.qq.com/rain/a/20250728A04DV900
+蒋凡再造一个“美团”？	https://news.qq.com/rain/a/20250728A0325Y00
+iPhone17即将发布，这升级我们等了六年	https://news.qq.com/rain/a/20250727A06Z8M00
+私募大佬但斌开撕科大讯飞董事长，发生了什么？	https://news.qq.com/rain/a/20250728A03LFW00
+“被围猎的私密照”：跨境平台上的偷拍交易链	https://news.qq.com/rain/a/20250727A02C6600
+飞桨入选中国人工智能产业创新成果展，百度打造AI产业基础设施“国家队”样板	https://www.sohu.com/a/918134536_104421?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.1.1753682610071nBgzP0H_1091
+宇树科技王兴兴：目前大模型生成编程对女性程序员更友好	https://www.sohu.com/a/918110805_121255906?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.2.1753682610071nBgzP0H_1091
+京东在2025世界人工智能大会宣布大模型品牌升级与开源进展	https://www.sohu.com/a/918156336_447547?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.3.1753682610071nBgzP0H_1091
+新手必看:零代码小程序搭建教程，3步搞定自己的微信小程序	https://www.sohu.com/a/918319487_122115537?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.4.1753682610071nBgzP0H_1091
+WAIC直击：百度慧播星发布新一代数字人技术NOVA	https://www.sohu.com/a/917892148_117770?scm=10001.666_13-100000-0_922.0-0.0.a2_5X162X1654&spm=smpc.channel_114.block3_77_O0F7zf_1_fd.6.1753682610071nBgzP0H_1091
