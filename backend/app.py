@@ -426,7 +426,8 @@ def update_articles():
                 print(f"文章内容爬取失败: {e}")
                 # 即使文章爬取失败，也不影响整体更新流程
             
-            subprocess.run(['python', 'clear_upd_files.py'], check=True)
+            # 移除对clear_upd_files.py的调用，保留更新文件用于后续分析
+            print("更新完成，保留更新文件")
             
             # 写入状态文件，通知前端更新成功
             with open('update_status.txt', 'w', encoding='utf-8') as f:

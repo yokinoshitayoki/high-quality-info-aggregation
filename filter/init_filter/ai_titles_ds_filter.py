@@ -78,7 +78,7 @@ def load_feedback_prompts():
         return [] 
 
 # 读取AI相关标题
-with open('filter/init_filter/ai_titles_v1.txt', 'r', encoding='utf-8') as f:
+with open('filter/upd_filter/ai_titles_v1_upd.txt', 'r', encoding='utf-8') as f:
     titles = [line.strip() for line in f if line.strip()]
 
 print(f"共读取到{len(titles)}个AI相关标题")
@@ -125,7 +125,7 @@ with ThreadPoolExecutor(max_workers=5) as executor:  # 并发数可调整
         except Exception as e:
             print(f"处理标题出错: {title}，错误: {e}")
 
-with open('filter/init_filter/ai_titles_v2.txt', 'w', encoding='utf-8') as f:
+with open('filter/upd_filter/ai_titles_v2_upd.txt', 'w', encoding='utf-8') as f:
     for title in results:
         f.write(title + '\n')
-print(f"可接受AI标题已写入 filter/init_filter/ai_titles_v2.txt，共{len(results)}条") 
+print(f"可接受AI标题已写入 filter/upd_filter/ai_titles_v2_upd.txt，共{len(results)}条") 
