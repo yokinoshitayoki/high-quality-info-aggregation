@@ -5,6 +5,7 @@ import os
 
 # DeepSeek API配置
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+print(DEEPSEEK_API_KEY)
 if DEEPSEEK_API_KEY is None:
     raise ValueError("env文件中 DEEPSEEK_API_KEY 未设置，请检查。")
 DEEPSEEK_API_URL = "https://api.deepseek.com"
